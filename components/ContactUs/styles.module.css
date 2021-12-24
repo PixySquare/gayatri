@@ -1,0 +1,25 @@
+.wrapper {
+  text-align: center;
+  display: block;
+  width: 80%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  margin-top: 50px;
+}
+
+.wrapper p {
+  font-weight: 300;
+  line-height: 33.5px;
+  color: #333;
+}
+
+.flexDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+
+.info {
+  text-align: left;
+}

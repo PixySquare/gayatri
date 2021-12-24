@@ -1,0 +1,14 @@
+.wrapper {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  text-align: left;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+.wrapper p {
+  font-weight: 300;
+  color: #333;
+  line-height: 33.5px;
+}

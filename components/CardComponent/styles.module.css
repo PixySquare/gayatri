@@ -1,0 +1,20 @@
+.wrapper {
+  width: 25%;
+  text-align: center;
+  padding: 10px;
+}
+
+.info {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info p {
+  font-weight: 300;
+  color: #333;
+  line-height: 33.5px;
+  margin-top: 0;
+}

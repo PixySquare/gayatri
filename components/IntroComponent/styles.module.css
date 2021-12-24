@@ -1,0 +1,41 @@
+.wrapper {
+  display: block;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.upperContainer {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 170%;
+}
+
+.lightFont {
+  font-weight: 200;
+  color: #333;
+}
+
+.flexContainer {
+  margin-top: 50px;
+  font-size: 150%;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.innerContainer {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0px !important;
+}
