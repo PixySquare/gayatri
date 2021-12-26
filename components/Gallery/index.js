@@ -3,7 +3,7 @@ import img from "../../public/assets/images/default.png";
 import Image from "next/image";
 function Gallery() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="gallery">
       <div className={styles.firstRow}>
         <Image src={img} />
         <div className={styles.innerFirstRow}>

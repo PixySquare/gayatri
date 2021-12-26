@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import Header from "../components/Header";
 import AboutUs from "../components/AboutUs";
 import AcademicsComponent from "../components/AcademicsComponent";
 import ContactUs from "../components/ContactUs";
@@ -13,6 +14,7 @@ import styles from "../styles/Home.module.css";
 export default function Home() {
   return (
     <div>
+      <Header />
       <IntroComponent />
       <AboutUs />
       <HistorySection />

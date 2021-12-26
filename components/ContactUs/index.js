@@ -2,7 +2,7 @@ import styles from "./styles.module.css";
 
 function ContactUs() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="contact">
       <h1>Contact Us</h1>
       <div className={styles.flexDiv}>
         <div className={styles.info}>

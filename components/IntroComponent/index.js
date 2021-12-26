@@ -4,7 +4,7 @@ import styles from "./styles.module.css";
 
 function IntroComponent() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="home">
       <div className={styles.upperContainer}>
         <h4 style={{ marginBottom: 0 }}>Welcome To Gayatri Institute</h4>
         <p className={styles.lightFont}>

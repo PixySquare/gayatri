@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 
 function AcademicsComponent() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="academics">
       <h1>Academics</h1>
       <p className={styles.lightFont}>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

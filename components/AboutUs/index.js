@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function AboutUs() {
   return (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} id="aboutus">
       <h1 style={{ textAlign: "center", fontSize: "38px" }}> About Us</h1>
 
       <div className={styles.flexContainer}>
