@@ -12,7 +12,7 @@ function index(props) {
   const height = props.height;
   const width = props.width;
   return (
-    <div className="carousel-wrapper" style={{ marginTop: 80 }}>
+    <div className="carousel-wrapper" style={{ marginTop: 100 }}>
       <Carousel
         infiniteLoop={true}
         interval={3000}

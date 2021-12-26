@@ -17,3 +17,9 @@
   justify-content: space-evenly;
   align-items: center;
 }
+
+@media (max-width: 1055px) {
+  .flexDiv {
+    flex-wrap: wrap;
+  }
+}

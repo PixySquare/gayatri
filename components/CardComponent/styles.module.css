@@ -18,3 +18,19 @@
   line-height: 33.5px;
   margin-top: 0;
 }
+
+@media (max-width: 1055px) {
+  .wrapper {
+    min-width: 50%;
+    text-align: center;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 500px) {
+  .wrapper {
+    min-width: 90% !important;
+    text-align: center;
+    padding: 10px;
+  }
+}

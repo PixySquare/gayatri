@@ -23,3 +23,16 @@
 .info {
   text-align: left;
 }
+
+.map {
+  width: 75%;
+}
+
+@media (max-width: 1055px) {
+  .flexDiv {
+    flex-direction: column;
+  }
+  .map {
+    width: 100%;
+  }
+}
