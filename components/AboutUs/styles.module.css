@@ -29,6 +29,10 @@
   }
 
   .innerContainer {
-    width: 90%;
+    width: 100%;
+  }
+
+  .wrapper {
+    width: 100%;
   }
 }
