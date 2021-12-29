@@ -1,0 +1,9 @@
+.info p {
+  margin: 0px;
+  text-align: left;
+}
+
+.map {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

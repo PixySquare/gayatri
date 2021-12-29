@@ -10,6 +10,26 @@
   padding-left: 30px;
   padding-right: 30px;
   font-weight: 300;
-  margin-top: 50px !important;
   line-height: 33.5px;
+}
+
+.container {
+  /* margin-top: 50px !important; */
+  background-color: rgba(116, 113, 113, 1);
+  color: #fff;
+  padding-top: 20px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 10%; */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
 }

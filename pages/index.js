@@ -11,6 +11,9 @@ import HistorySection from "../components/HistorySection";
 import IntroComponent from "../components/IntroComponent";
 import TeamComponent from "../components/TeamComponent";
 import styles from "../styles/Home.module.css";
+import FounderSection from "../components/FounderSection";
+import Form from "../components/Form";
+import TimeLine from "../components/TimeLine";
 
 export default function Home() {
   return (
@@ -21,10 +24,13 @@ export default function Home() {
       <AboutUs />
       <HistorySection />
       <HistorySection />
+      <FounderSection />
       <AcademicsComponent />
       <TeamComponent />
+      <TimeLine />
       <Gallery />
       <ContactUs />
+      <Form />
       <Footer />
     </div>
   );

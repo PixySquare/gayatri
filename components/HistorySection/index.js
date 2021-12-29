@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 function HistorySection() {
   return (
     <div className={styles.wrapper}>
-      <h2>History</h2>
+      <h1>History</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Fringilla urna

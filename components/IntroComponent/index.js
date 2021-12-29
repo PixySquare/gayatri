@@ -23,7 +23,7 @@ function IntroComponent() {
             We offer tuition <br /> for students of classes <br />
             <span style={{ fontSize: "150%" }}>1st to 12th </span>
             <br />
-            All subjects
+            <span className={styles.lightFont}>All subjects</span>
           </h3>
         </div>
       </div>

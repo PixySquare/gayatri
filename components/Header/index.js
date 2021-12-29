@@ -47,7 +47,7 @@ function Header() {
           display: "flex",
           flexDirection: "row",
           alignItems: "center",
-          flex: 0.3,
+          // flex: 0.3,
         }}
       >
         <div
@@ -92,125 +92,139 @@ function Header() {
           </>
         )}
       </div>
-      <div style={{ display: "block", marginLeft: "auto" }}>
+      <div style={{ display: "flex", width: "100%" }}>
         {open && (
-          <div className={styles.collapse}>
-            <a
-              href="/"
-              onClick={(e) => {
-                const menu = document.getElementById("home");
-                e.preventDefault();
-                if (process.browser) {
-                  if (window.innerWidth < 1055) {
-                    setOpen(false);
+          <div
+            className={styles.collapse}
+            style={{ display: "flex", justifyContent: "space-between" }}
+          >
+            <div style={{ display: "flex" }}>
+              <a
+                href="/"
+                onClick={(e) => {
+                  const menu = document.getElementById("home");
+                  e.preventDefault();
+                  if (process.browser) {
+                    if (window.innerWidth < 1055) {
+                      setOpen(false);
+                    }
                   }
-                }
-                menu &&
-                  menu.scrollIntoView({ behavior: "smooth", block: "start" });
-                if (
-                  window.location.href != "http://localhost:3000/" &&
-                  window.location.href != "https://pizzacassino.vercel.app/"
-                ) {
-                  location.href = "/#home";
-                }
-              }}
-            >
-              <div className={styles.nav_item}>Home</div>
-            </a>
-            <a
-              href="/"
-              onClick={(e) => {
-                const about = document.getElementById("aboutus");
-                e.preventDefault();
-                if (process.browser) {
-                  if (window.innerWidth < 1055) {
-                    setOpen(false);
+                  menu &&
+                    menu.scrollIntoView({ behavior: "smooth", block: "start" });
+                  if (
+                    window.location.href != "http://localhost:3000/" &&
+                    window.location.href != "https://pizzacassino.vercel.app/"
+                  ) {
+                    location.href = "/#home";
                   }
-                }
-                about &&
-                  about.scrollIntoView({ behavior: "smooth", block: "start" });
+                }}
+              >
+                <div className={styles.nav_item}>Home</div>
+              </a>
+              <a
+                href="/"
+                onClick={(e) => {
+                  const about = document.getElementById("aboutus");
+                  e.preventDefault();
+                  if (process.browser) {
+                    if (window.innerWidth < 1055) {
+                      setOpen(false);
+                    }
+                  }
+                  about &&
+                    about.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
 
-                if (
-                  window.location.href != "http://localhost:3000/" &&
-                  window.location.href != "https://pizzacassino.vercel.app/"
-                ) {
-                  location.href = "/#aboutus";
-                }
-              }}
-            >
-              <div className={styles.nav_item}>About Us</div>
-            </a>
+                  if (
+                    window.location.href != "http://localhost:3000/" &&
+                    window.location.href != "https://pizzacassino.vercel.app/"
+                  ) {
+                    location.href = "/#aboutus";
+                  }
+                }}
+              >
+                <div className={styles.nav_item}>About Us</div>
+              </a>
 
-            <a
-              href="/"
-              onClick={(e) => {
-                const blogs = document.getElementById("academics");
-                e.preventDefault();
-                if (process.browser) {
-                  if (window.innerWidth < 1055) {
-                    setOpen(false);
+              <a
+                href="/"
+                onClick={(e) => {
+                  const blogs = document.getElementById("academics");
+                  e.preventDefault();
+                  if (process.browser) {
+                    if (window.innerWidth < 1055) {
+                      setOpen(false);
+                    }
                   }
-                }
-                blogs &&
-                  blogs.scrollIntoView({ behavior: "smooth", block: "start" });
-                // window.history.pushState("blogs", "blogs", "/blogs");
-                if (
-                  window.location.href != "http://localhost:3000/" &&
-                  window.location.href != "https://pizzacassino.vercel.app/"
-                ) {
-                  location.href = "/#academics";
-                }
-              }}
-            >
-              <div className={styles.nav_item}>Academics</div>
-            </a>
+                  blogs &&
+                    blogs.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
+                  // window.history.pushState("blogs", "blogs", "/blogs");
+                  if (
+                    window.location.href != "http://localhost:3000/" &&
+                    window.location.href != "https://pizzacassino.vercel.app/"
+                  ) {
+                    location.href = "/#academics";
+                  }
+                }}
+              >
+                <div className={styles.nav_item}>Academics</div>
+              </a>
 
-            <a
-              href="/"
-              onClick={(e) => {
-                const findus = document.getElementById("gallery");
-                e.preventDefault();
-                if (process.browser) {
-                  if (window.innerWidth < 1055) {
-                    setOpen(false);
+              <a
+                href="/"
+                onClick={(e) => {
+                  const findus = document.getElementById("gallery");
+                  e.preventDefault();
+                  if (process.browser) {
+                    if (window.innerWidth < 1055) {
+                      setOpen(false);
+                    }
                   }
-                }
-                findus &&
-                  findus.scrollIntoView({ behavior: "smooth", block: "start" });
-                // window.history.pushState("findus", "findus", "/findus");
-                if (
-                  window.location.href != "http://localhost:3000/" &&
-                  window.location.href != "https://pizzacassino.vercel.app/"
-                ) {
-                  location.href = "/#gallery";
-                }
-              }}
-            >
-              <div className={styles.nav_item}>Gallery</div>
-            </a>
-            <a
-              href="/"
-              onClick={(e) => {
-                const team = document.getElementById("contact");
-                e.preventDefault();
-                if (process.browser) {
-                  if (window.innerWidth < 1055) {
-                    setOpen(false);
+                  findus &&
+                    findus.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
+                  // window.history.pushState("findus", "findus", "/findus");
+                  if (
+                    window.location.href != "http://localhost:3000/" &&
+                    window.location.href != "https://pizzacassino.vercel.app/"
+                  ) {
+                    location.href = "/#gallery";
                   }
-                }
-                team &&
-                  team.scrollIntoView({ behavior: "smooth", block: "start" });
-                // window.history.pushState("team", "team", "/team");
-                if (
-                  window.location.href != "http://localhost:3000/" &&
-                  window.location.href != "https://pizzacassino.vercel.app/"
-                ) {
-                  location.href = "/#contact";
-                }
-              }}
-            >
-              <div className={styles.nav_item}>Contact Us</div>
-            </a>
+                }}
+              >
+                <div className={styles.nav_item}>Gallery</div>
+              </a>
+              <a
+                href="/"
+                onClick={(e) => {
+                  const team = document.getElementById("contact");
+                  e.preventDefault();
+                  if (process.browser) {
+                    if (window.innerWidth < 1055) {
+                      setOpen(false);
+                    }
+                  }
+                  team &&
+                    team.scrollIntoView({ behavior: "smooth", block: "start" });
+                  // window.history.pushState("team", "team", "/team");
+                  if (
+                    window.location.href != "http://localhost:3000/" &&
+                    window.location.href != "https://pizzacassino.vercel.app/"
+                  ) {
+                    location.href = "/#contact";
+                  }
+                }}
+              >
+                <div className={styles.nav_item}>Contact Us</div>
+              </a>
+            </div>
 
             <div className={styles.socials}>
               <Link href={"https://www.instagram.com"}>

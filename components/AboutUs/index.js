@@ -5,11 +5,17 @@ import Image from "next/image";
 function AboutUs() {
   return (
     <div className={styles.wrapper} id="aboutus">
-      <h1 style={{ textAlign: "center", fontSize: "38px" }}> About Us</h1>
+      <h1 style={{ textAlign: "left", fontSize: "48px", fontWeight: "bolder" }}>
+        {" "}
+        About Us
+      </h1>
 
       <div className={styles.flexContainer}>
         <div className={styles.innerContainer}>
-          <p className={styles.lightFont} style={{ marginTop: 0 }}>
+          <p
+            className={styles.lightFont}
+            style={{ marginTop: 0, textAlign: "left" }}
+          >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est

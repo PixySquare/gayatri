@@ -11,4 +11,32 @@
   font-weight: 300;
   line-height: 33.5px;
   color: #333;
+  /* padding-right:20px; */
+}
+
+.flexDiv {
+  display: flex;
+  /* flex-direction: row; */
+}
+
+.imageDiv {
+  /* width: 100% !important; */
+}
+
+@media (max-width: 1055px) {
+  .flexDiv {
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center;
+  }
+  .text {
+    text-align: center;
+    width: 100% !important;
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto;
+  }
+  .lightFont {
+    padding-right: 0 !important;
+  }
 }

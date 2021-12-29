@@ -114,6 +114,12 @@
 }
 
 @media (max-width: 1055px) {
+  .innerDiv {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
   .logoDiv {
     margin-right: auto !important;
     margin-left: 30px;
