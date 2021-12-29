@@ -10,8 +10,7 @@ function Form() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [mobile, setMobile] = useState("");
-  const [referralCode, setReferralCode] = useState("code");
-  const [subject, setSubject] = useState("");
+  const [cclass, setCclass] = useState("");
   const [message, setMessage] = useState("");
 
   const [loading, setLoading] = useState(false);
@@ -34,7 +33,7 @@ function Form() {
     <div className={styles.form}>
       {/* {loading ? <Loading /> : null} */}
 
-      <form onSubmit={handleSubmit}>
+      <form action="https://formsubmit.co/heemankv@gmail.com" method="POST">
         <h1
           className={styles.title}
           style={{ textAlign: "left", marginLeft: "10%" }}
@@ -46,8 +45,7 @@ function Form() {
             <input
               type="text"
               placeholder="Your Name"
-              value={name}
-              onChange={(e) => setName(e.target.value)}
+              name="Name"
             />
           </div>
 
@@ -55,8 +53,25 @@ function Form() {
             <input
               type="email"
               placeholder="Your Email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
+              name="Email ID"
+            />
+          </div>
+        </div>
+
+        <div className={styles.flexDiv}>
+          <div className={styles.formElement}>
+            <input
+              type="text"
+              placeholder="Your Phone"
+              name="Mobile Number"
+            />
+          </div>
+
+          <div className={styles.formElement} style={{ marginRight: 0 }}>
+            <input
+              type="text"
+              placeholder="Your Class"
+              name="Class"
             />
           </div>
         </div>
@@ -64,12 +79,11 @@ function Form() {
         <div className={styles.formElement}>
           <textarea
             placeholder="Message"
-            value={message}
-            onChange={(e) => setMessage(e.target.value)}
+            name="Message"
           />
         </div>
 
-        <button>Submit</button>
+        <button type="submit">Submit</button>
       </form>
     </div>
   );

@@ -4,6 +4,7 @@ import styles from "./styles.module.css";
 
 function IntroComponent() {
   return (
+    <div className={styles.outerWrapper}>
     <div className={styles.wrapper} id="home">
       <div className={styles.upperContainer}>
         <h1 style={{ marginBottom: 0 }} className={styles.headerContainer}>Welcome To Gayatri Institute</h1>
@@ -27,6 +28,7 @@ function IntroComponent() {
           </h3>
         </div>
       </div>
+    </div>
     </div>
   );
 }
