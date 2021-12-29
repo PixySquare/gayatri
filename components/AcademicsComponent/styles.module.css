@@ -19,10 +19,6 @@
   /* flex-direction: row; */
 }
 
-.imageDiv {
-  /* width: 100% !important; */
-}
-
 @media (max-width: 1055px) {
   .flexDiv {
     flex-direction: column;
