@@ -8,10 +8,10 @@ function FounderSection() {
     <div>
       <div className={styles.wrapper}>
         <div className={styles.imageDiv}>
-          <Image src={img} />
+          <Image src={img}  alt={"image"}/>
         </div>
         <div className={styles.infoDiv}>
-          <h1>Founder's Name</h1>
+          <h1>Founders Name</h1>
           <h3>Text</h3>
           <p className={styles.lightFont}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

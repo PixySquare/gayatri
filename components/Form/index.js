@@ -32,7 +32,7 @@ function Form() {
 
   return (
     <div className={styles.form}>
-      {loading ? <Loading /> : null}
+      {/* {loading ? <Loading /> : null} */}
 
       <form onSubmit={handleSubmit}>
         <h1
