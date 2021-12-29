@@ -3,7 +3,7 @@
   width: 100%;
   padding-bottom: 2vw  ;
   padding-top: 1vw  ;
-
+  color: #fff !important;
 }
 
 .wrapper {
@@ -24,7 +24,7 @@
 
 .lightFont {
   font-weight: 200;
-  color: #333;
+  color: rgb(255, 255, 255);
 }
 
 .flexContainer {
