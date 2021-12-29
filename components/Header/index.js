@@ -5,6 +5,7 @@ import Link from "next/link";
 import { useEffect, useState } from "react";
 import Image from "next/image";
 import Icon from "../../public/assets/images/logo.png";
+import Button from  "../../common/Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
@@ -227,7 +228,7 @@ function Header() {
             </div>
 
             <div className={styles.socials}>
-              <Link href={"https://www.instagram.com"}>
+              {/* <Link href={"https://www.instagram.com"}>
                 <a target="_blank" className={styles.nav_item}>
                   <FontAwesomeIcon icon={faInstagram} size="lg" />
                 </a>
@@ -241,7 +242,11 @@ function Header() {
                 <a target="_blank" className={styles.nav_item}>
                   <FontAwesomeIcon icon={faWhatsapp} size="lg" />
                 </a>
-              </Link>
+              </Link> */}
+
+              <Button text="ERP Login"  href={"https://www.google.com"}></Button>
+
+
             </div>
           </div>
         )}
