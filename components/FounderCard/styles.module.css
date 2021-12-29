@@ -1,0 +1,38 @@
+.wrapper {
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .info p {
+    font-weight: 500;
+    color: #333;
+    margin: 0;
+    text-align: left;
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  @media (max-width: 1055px) {
+    .wrapper {
+      min-width: 50%;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+  
+  @media (max-width: 500px) {
+    .wrapper {
+      min-width: 90% !important;
+      text-align: center;
+      padding: 10px;
+    }
+  }
+  

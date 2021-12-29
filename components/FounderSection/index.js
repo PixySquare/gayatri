@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
 import img from "../../public/assets/images/default.png";
-import CardComponent from "../CardComponent";
+import FounderCard from "../FounderCard";
 
 function FounderSection() {
   return (
@@ -24,9 +24,9 @@ function FounderSection() {
         </div>
       </div>
       <div className={styles.flexDiv}>
-        <CardComponent />
-        <CardComponent />
-        <CardComponent />
+        <FounderCard />
+        <FounderCard />
+        <FounderCard />
       </div>
     </div>
   );
