@@ -51,6 +51,20 @@ export default function TimeLine() {
           </TimelineItem>
         </Timeline>
       </div>
+      <div className={styles.secondContainer}>
+        <h3>2021</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur  </p>
+        <h3>2021</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur  </p>
+        <h3>2021</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur  </p>
+        <h3>2021</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur  </p>
+        <h3>2021</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur  </p>
+        <h3>2021</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur  </p>
+      </div>
     </div>
   );
 }

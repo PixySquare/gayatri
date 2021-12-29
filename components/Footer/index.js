@@ -43,7 +43,7 @@ function Footer() {
       </div>
       <hr style={{ width: "90%", marginLeft: "auto", marginRight: "auto" }} />
       <div className={styles.wrapper}>
-        <p>Designed by KSM @ PixySquare</p>
+        <p>Gayatri Institute </p>
         <p>@ Gayatri Institute, 2021</p>
       </div>
     </div>

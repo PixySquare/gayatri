@@ -11,3 +11,21 @@
   display: block;
   width: 80%;
 }
+
+
+.secondContainer {
+  display: none;
+}
+
+
+
+@media (max-width:800px) {
+  .secondContainer {
+    display: block;
+  }
+
+  .innerContainer{
+    display: none;
+  }
+  
+}
