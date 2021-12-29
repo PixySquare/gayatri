@@ -1,11 +1,26 @@
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(8, 5vw);
   /* grid-gap: 1.5rem; */
+  
 }
 
 .container {
-  width: 75%;
+  margin-top: 0;
+  background-color: #58af65;
+}
+
+
+.innerContainer {
+  width: 80%;
   margin: 2rem auto;
+
+}
+
+
+.seeMore{
+  display: flex;
+  justify-content: flex-end;
 }

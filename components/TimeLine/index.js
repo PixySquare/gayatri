@@ -10,36 +10,47 @@ import styles from "./styles.module.css";
 export default function TimeLine() {
   return (
     <div className={styles.container}>
-      <h1 style={{ textAlign: "center", fontSize: "40px" }}>Timeline</h1>
-      <Timeline position="alternate">
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot variant="outlined" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>Eat</TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot variant="outlined" color="primary" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>Code</TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot variant="outlined" color="secondary" />
-            <TimelineConnector />
-          </TimelineSeparator>
-          <TimelineContent>Sleep</TimelineContent>
-        </TimelineItem>
-        <TimelineItem>
-          <TimelineSeparator>
-            <TimelineDot variant="outlined" />
-          </TimelineSeparator>
-          <TimelineContent>Repeat</TimelineContent>
-        </TimelineItem>
-      </Timeline>
+      <div className={styles.innerContainer}>
+
+        <h1 style={{ textAlign: "center", fontSize: "40px", color: "white" }}>Timeline</h1>
+        <Timeline position="alternate">
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined" />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent> We give them solid conceptual understanding to help them clearn
+              their understanding of the subject, and make them fall in love with
+              it!</TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined" color="primary" />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent> We give them solid conceptual understanding to help them clearn
+              their understanding of the subject, and make them fall in love with
+              it!</TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined" color="secondary" />
+              <TimelineConnector />
+            </TimelineSeparator>
+            <TimelineContent> We give them solid conceptual understanding to help them clearn
+              their understanding of the subject, and make them fall in love with
+              it!</TimelineContent>
+          </TimelineItem>
+          <TimelineItem>
+            <TimelineSeparator>
+              <TimelineDot variant="outlined" />
+            </TimelineSeparator>
+            <TimelineContent> We give them solid conceptual understanding to help them clearn
+              their understanding of the subject, and make them fall in love with
+              it!</TimelineContent>
+          </TimelineItem>
+        </Timeline>
+      </div>
     </div>
   );
 }

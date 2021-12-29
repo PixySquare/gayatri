@@ -8,6 +8,8 @@ import ContactUs from "../components/ContactUs";
 import Footer from "../components/Footer";
 import Gallery from "../components/Gallery";
 import HistorySection from "../components/HistorySection";
+import VisionSection from "../components/VisionSection";
+
 import IntroComponent from "../components/IntroComponent";
 import TeamComponent from "../components/TeamComponent";
 import styles from "../styles/Home.module.css";
@@ -23,7 +25,7 @@ export default function Home() {
       <IntroComponent />
       <AboutUs />
       <HistorySection />
-      <HistorySection />
+      <VisionSection />
       <FounderSection />
       <AcademicsComponent />
       <TeamComponent />

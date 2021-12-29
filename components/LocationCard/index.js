@@ -12,12 +12,12 @@ function LocationCard() {
           loading="lazy"
         ></iframe>
       </div>
-      <div className={styles.info}>
-        {/* <h2>Location</h2> */}
+      {/* <div className={styles.info}>
+        <h2>Location</h2>
         <p>XYZ, NEW Delhi, India - 110048</p>
         <p>email@email.com</p>
         <p>+91 999999999</p>
-      </div>
+      </div> */}
     </div>
   );
 }

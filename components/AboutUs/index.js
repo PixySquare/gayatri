@@ -14,7 +14,7 @@ function AboutUs() {
         <div className={styles.innerContainer}>
           <p
             className={styles.lightFont}
-            style={{ marginTop: 0, textAlign: "left" }}
+            style={{ marginTop: 6, textAlign: "left", width: "80%", marginRight:"auto" }}
           >
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -27,7 +27,7 @@ function AboutUs() {
             tellus in hac. Egestas sed tempus urna et.
           </p>
         </div>
-        <Image src={img2} />
+        <Image src={img2} alt={"image"} />
       </div>
     </div>
   );

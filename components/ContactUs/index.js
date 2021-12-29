@@ -10,6 +10,8 @@ function ContactUs() {
         <LocationCard />
         <LocationCard />
         <LocationCard />
+        <LocationCard />
+
       </div>
     </div>
   );

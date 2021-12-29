@@ -6,13 +6,13 @@ function IntroComponent() {
   return (
     <div className={styles.wrapper} id="home">
       <div className={styles.upperContainer}>
-        <h4 style={{ marginBottom: 0 }}>Welcome To Gayatri Institute</h4>
+        <h1 style={{ marginBottom: 0 }} className={styles.headerContainer}>Welcome To Gayatri Institute</h1>
         <p className={styles.lightFont}>
           We help children to clear their fundamental concepts{" "}
         </p>
       </div>
       <div className={styles.flexContainer}>
-        <Image src={img} />
+        <Image src={img} alt={"image"} />
         <div className={styles.innerContainer}>
           <p className={styles.lightFont} style={{ marginTop: 0 }}>
             We give them solid conceptual understanding to help them clearn
