@@ -47,7 +47,7 @@ function Header() {
         style={{
           display: "flex",
           flexDirection: "row",
-          alignItems: "center",
+          alignItems: "left",
           // flex: 0.3,
         }}
       >
@@ -60,9 +60,8 @@ function Header() {
             alignItems: "center",
           }}
         >
-          <Image className={styles.image} src={Icon} alt={"title"} />
         </div>
-        {/* <Link
+        <Link
           href="/"
           passHref
           onClick={(e) => {
@@ -74,8 +73,8 @@ function Header() {
             }
           }}
         >
-          <div className={styles.brand}>Gayatri Institute</div>
-        </Link> */}
+          <Image className={styles.image} src={Icon} alt={"title"} />
+        </Link>
       </div>
 
       <div className={styles.menu} onClick={() => setOpen(!open)}>
@@ -100,28 +99,6 @@ function Header() {
             style={{ display: "flex", justifyContent: "space-between" }}
           >
             <div style={{ display: "flex" }}>
-              <a
-                href="/"
-                onClick={(e) => {
-                  const menu = document.getElementById("home");
-                  e.preventDefault();
-                  if (process.browser) {
-                    if (window.innerWidth < 1055) {
-                      setOpen(false);
-                    }
-                  }
-                  menu &&
-                    menu.scrollIntoView({ behavior: "smooth", block: "start" });
-                  if (
-                    window.location.href != "http://localhost:3000/" &&
-                    window.location.href != "https://pizzacassino.vercel.app/"
-                  ) {
-                    location.href = "/#home";
-                  }
-                }}
-              >
-                <div className={styles.nav_item}>Home</div>
-              </a>
               <a
                 href="/"
                 onClick={(e) => {
@@ -152,6 +129,33 @@ function Header() {
               <a
                 href="/"
                 onClick={(e) => {
+                  const findus = document.getElementById("gallery");
+                  e.preventDefault();
+                  if (process.browser) {
+                    if (window.innerWidth < 1055) {
+                      setOpen(false);
+                    }
+                  }
+                  findus &&
+                    findus.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
+                  // window.history.pushState("findus", "findus", "/findus");
+                  if (
+                    window.location.href != "http://localhost:3000/" &&
+                    window.location.href != "https://pizzacassino.vercel.app/"
+                  ) {
+                    location.href = "/#history";
+                  }
+                }}
+              >
+                <div className={styles.nav_item}>Vision and Mission</div>
+              </a>
+
+              <a
+                href="/"
+                onClick={(e) => {
                   const blogs = document.getElementById("academics");
                   e.preventDefault();
                   if (process.browser) {
@@ -176,32 +180,7 @@ function Header() {
                 <div className={styles.nav_item}>Academics</div>
               </a>
 
-              <a
-                href="/"
-                onClick={(e) => {
-                  const findus = document.getElementById("gallery");
-                  e.preventDefault();
-                  if (process.browser) {
-                    if (window.innerWidth < 1055) {
-                      setOpen(false);
-                    }
-                  }
-                  findus &&
-                    findus.scrollIntoView({
-                      behavior: "smooth",
-                      block: "start",
-                    });
-                  // window.history.pushState("findus", "findus", "/findus");
-                  if (
-                    window.location.href != "http://localhost:3000/" &&
-                    window.location.href != "https://pizzacassino.vercel.app/"
-                  ) {
-                    location.href = "/#gallery";
-                  }
-                }}
-              >
-                <div className={styles.nav_item}>Gallery</div>
-              </a>
+              
               <a
                 href="/"
                 onClick={(e) => {
