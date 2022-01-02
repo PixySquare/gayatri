@@ -1,12 +1,12 @@
 .outerWrapper {
-  background: url(../../public/assets/images/intro.png);
+  background: url(../../public/assets/images/intro1.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   padding-bottom: 2vw;
   padding-top: 1vw;
   color: #fff !important;
-  height: 100vh;
+  height: 110vh;
 }
 
 .card {
@@ -24,7 +24,7 @@
   text-align: center;
   padding: 30px;
   position: relative;
-  top: -120px;
+  top: -30vh;
 }
 
 .wrapper {
