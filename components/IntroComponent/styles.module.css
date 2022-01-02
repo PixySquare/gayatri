@@ -10,6 +10,7 @@
 }
 
 .card {
+  min-width: 300px;
   width: 40%;
   display: block;
   margin-left: auto;

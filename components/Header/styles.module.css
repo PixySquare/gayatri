@@ -146,6 +146,7 @@
     width: 100vw;
     text-align: center;
     flex-direction: column;
+    margin-bottom: 20px;
   }
 
   .nav_item {
@@ -158,12 +159,19 @@
     position: absolute;
     display: block;
     left: 80%;
-    top: 0%;
+    top: 7px;
   }
 
   .socials {
+    margin-top: 10px;
     margin-right: auto !important;
     margin-left: auto !important ;
     /* width:120px; */
+  }
+
+  .divColumn {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }

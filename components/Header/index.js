@@ -101,7 +101,7 @@ function Header() {
               alignItems: "center",
             }}
           >
-            <div style={{ display: "flex" }}>
+            <div className={styles.divColumn} style={{ display: "flex" }}>
               <a
                 href="/"
                 onClick={(e) => {
@@ -225,7 +225,11 @@ function Header() {
                 </a>
               </Link> */}
 
-              <Button text="ERP Login" href={"https://www.google.com"}></Button>
+              <Button
+                className={styles.button2}
+                text="ERP Login"
+                href={"https://www.google.com"}
+              ></Button>
             </div>
           </div>
         )}
