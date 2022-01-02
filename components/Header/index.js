@@ -4,8 +4,8 @@ import styles from "./styles.module.css";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import Image from "next/image";
-import Icon from "../../public/assets/images/logo.png";
-import Button from  "../../common/Header";
+import Icon from "../../public/assets/images/transparentLogo.png";
+import Button from "../../common/Header";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faInstagram,
@@ -59,8 +59,7 @@ function Header() {
             display: "flex",
             alignItems: "center",
           }}
-        >
-        </div>
+        ></div>
         <Link
           href="/"
           passHref
@@ -96,7 +95,11 @@ function Header() {
         {open && (
           <div
             className={styles.collapse}
-            style={{ display: "flex", justifyContent: "space-between" }}
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
           >
             <div style={{ display: "flex" }}>
               <a
@@ -180,7 +183,6 @@ function Header() {
                 <div className={styles.nav_item}>Academics</div>
               </a>
 
-              
               <a
                 href="/"
                 onClick={(e) => {
@@ -223,9 +225,7 @@ function Header() {
                 </a>
               </Link> */}
 
-              <Button text="ERP Login"  href={"https://www.google.com"}></Button>
-
-
+              <Button text="ERP Login" href={"https://www.google.com"}></Button>
             </div>
           </div>
         )}

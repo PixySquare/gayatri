@@ -33,6 +33,7 @@
   margin-right: auto;
   margin-left: auto !important;
   margin-top: 50px !important;
+  margin-bottom: 50px;
 }
 
 @media (max-width: 1055px) {

@@ -1,7 +1,12 @@
 .container {
   width: 100%;
   display: block;
-  background-color: #58af65;
+  padding: 150px;
+  background: url(../../public/assets/images/board.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  color: #fff;
   margin-bottom: 0;
 }
 
@@ -12,20 +17,16 @@
   width: 80%;
 }
 
-
 .secondContainer {
   display: none;
 }
 
-
-
-@media (max-width:800px) {
+@media (max-width: 800px) {
   .secondContainer {
     display: block;
   }
 
-  .innerContainer{
+  .innerContainer {
     display: none;
   }
-  
 }

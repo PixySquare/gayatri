@@ -21,15 +21,15 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <CarouselCover />
+      {/* <CarouselCover /> */}
       <IntroComponent />
       <AboutUs />
       <HistorySection />
       <VisionSection />
       <FounderSection />
+      <TimeLine />
       <AcademicsComponent />
       <TeamComponent />
-      <TimeLine />
       <Gallery />
       <ContactUs />
       <Form />

@@ -5,13 +5,13 @@ import img from "../../public/assets/images/default.png";
 function AcademicsComponent() {
   return (
     <div className={styles.wrapper} id="academics">
-      <h1 style={{ fontSize: 48, textAlign: "left" }}>Academics</h1>
+      <h1 style={{ fontSize: 48, textAlign: "left" }}>Children</h1>
       <div className={styles.flexDiv}>
         <div
           className={styles.text}
           style={{ textAlign: "left", width: "60%" }}
         >
-          <h2 style={{ marginTop: 0 }}>Methodology</h2>
+          {/* <h2 style={{ marginTop: 0 }}>Methodology</h2> */}
           <p className={styles.lightFont} style={{ paddingRight: 30 }}>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua.

@@ -4,31 +4,14 @@ import styles from "./styles.module.css";
 
 function IntroComponent() {
   return (
-    <div className={styles.outerWrapper}>
     <div className={styles.wrapper} id="home">
-      <div className={styles.upperContainer}>
-        <h1 style={{ marginBottom: 0 }} className={styles.headerContainer}>Welcome To Gayatri Institute</h1>
-        <p className={styles.lightFont}>
-          We help children to clear their fundamental concepts{" "}
-        </p>
+      <div className={styles.outerWrapper}></div>
+      <div className={styles.card}>
+        <span>We offer tuition for students of classes</span>
+        <br />
+        <h3> 1st to 12th</h3>
+        <h3> All subjects</h3>
       </div>
-      <div className={styles.flexContainer}>
-        <Image src={img} alt={"image"} />
-        <div className={styles.innerContainer}>
-          <p className={styles.lightFont} style={{ marginTop: 0 }}>
-            We give them solid conceptual understanding to help them clearn
-            their understanding of the subject, and make them fall in love with
-            it!
-          </p>
-          <h3 style={{ marginTop: 0 }}>
-            We offer tuition <br /> for students of classes <br />
-            <span style={{ fontSize: "150%" }}>1st to 12th </span>
-            <br />
-            <span className={styles.lightFont}>All subjects</span>
-          </h3>
-        </div>
-      </div>
-    </div>
     </div>
   );
 }

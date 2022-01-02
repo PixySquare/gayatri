@@ -10,10 +10,11 @@
   justify-content: space-around;
   background: transparent;
   z-index: 100;
-  background-color: #ffffff;
+  background-color: #0d0d0f;
   padding-left: 10vw;
   padding-right: 10vw;
-  color: rgb(0, 0, 0);
+  color: #fff;
+  border-bottom: 2px solid #fff;
   /* margin-bottom: 100px; */
   /* font-weight: lighter !important; */
   align-items: center;
@@ -38,8 +39,8 @@
 }
 
 .socials {
-  flex: 0.33 !important;
-  /* width:auto !important; */
+  /* flex: 0.33 !important; */
+  width: auto !important;
   display: flex !important;
   justify-content: center;
   min-width: 120px;
@@ -132,7 +133,7 @@
     width: 100%;
     padding: 0rem;
     font-size: 1.25rem;
-    background-color: #58af65;
+    background-color: #0d0d0f;
     flex-direction: column;
   }
 

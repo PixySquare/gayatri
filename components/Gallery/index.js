@@ -5,7 +5,16 @@ function Gallery() {
   return (
     <div className={styles.container}>
       <div className={styles.innerContainer}>
-        <h1 style={{ fontSize: 40 , color: "black", marginTop:0, marginBottom:0}}>Gallery</h1>
+        <h1
+          style={{
+            fontSize: 40,
+            color: "#fff",
+            marginTop: 0,
+            marginBottom: 30,
+          }}
+        >
+          Gallery
+        </h1>
         <div className={styles.gallery}>
           <figure className="gallery__item gallery__item--1">
             <Image src={img} alt="Gallery image 1" className="gallery__img" />
@@ -26,8 +35,8 @@ function Gallery() {
             <Image src={img} alt="Gallery image 6" className="gallery__img" />
           </figure>
         </div>
-        <div  className={styles.seeMore}>
-          <span > Explore More</span>
+        <div className={styles.seeMore}>
+          <span> Explore More</span>
         </div>
       </div>
     </div>

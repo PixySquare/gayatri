@@ -19,6 +19,10 @@
   /* flex-direction: row; */
 }
 
+.imageDiv span {
+  border-radius: 20px;
+}
+
 @media (max-width: 1055px) {
   .flexDiv {
     flex-direction: column;

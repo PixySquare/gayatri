@@ -3,6 +3,9 @@
   text-align: center;
   padding: 10px;
 }
+.wrapper span {
+  border-radius: 12px;
+}
 
 .info {
   display: flex;

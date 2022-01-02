@@ -6,7 +6,7 @@ function CardComponent() {
     <div className={styles.wrapper}>
       <Image src={img} />
       <div className={styles.info}>
-        <p>Name Surname</p>
+        <p style={{ fontWeight: "bolder" }}>Name Surname</p>
         <p>Class 1</p>
         <p>Lorem ipsum dolor sit amet, consectetur </p>
       </div>
