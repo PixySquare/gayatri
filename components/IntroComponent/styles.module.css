@@ -79,4 +79,11 @@
     text-align: center;
     width: 90%;
   }
+
+  .outerWrapper {
+    height: 42vh !important;
+  }
+  .card {
+    top: -20vh !important;
+  }
 }

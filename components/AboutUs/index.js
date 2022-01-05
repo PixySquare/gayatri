@@ -7,10 +7,18 @@ import Image from "next/image";
 function AboutUs() {
   return (
     <div className={styles.wrapper} id="aboutus">
-      <h1 style={{ textAlign: "left", fontSize: "48px", fontWeight: "bolder" }}>
+      <h1
+        style={{
+          textAlign: "left",
+          fontSize: "48px",
+          fontWeight: "bolder",
+          marginBottom: 10,
+        }}
+      >
         {" "}
         About Us
       </h1>
+      <Image src="/assets/underlines/1.png" width="200" height="20" />
 
       <div className={styles.flexContainer}>
         <div className={styles.innerContainer}>

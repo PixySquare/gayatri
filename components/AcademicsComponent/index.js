@@ -5,7 +5,10 @@ import img from "../../public/assets/images/default.png";
 function AcademicsComponent() {
   return (
     <div className={styles.wrapper} id="academics">
-      <h1 style={{ fontSize: 48, textAlign: "left" }}>Children</h1>
+      <h1 style={{ fontSize: 48, textAlign: "left", marginBottom: 10 }}>
+        Children
+      </h1>
+      <Image src="/assets/underlines/3.png" width="200" height="20" />
       <div className={styles.flexDiv}>
         <div
           className={styles.text}

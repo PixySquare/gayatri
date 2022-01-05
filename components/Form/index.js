@@ -1,4 +1,5 @@
 // import { useRouter } from "next/router";
+import Image from "next/image";
 import { useState } from "react";
 // import { db } from "../../firebase";
 import styles from "./styles.module.css";
@@ -36,51 +37,38 @@ function Form() {
       <form action="https://formsubmit.co/heemankv@gmail.com" method="POST">
         <h1
           className={styles.title}
-          style={{ textAlign: "left", marginLeft: "10%" }}
+          style={{
+            textAlign: "left",
+            marginLeft: "10%",
+            fontSize: 48,
+            marginBottom: 30,
+          }}
         >
           Contact Us
         </h1>
+
         <div className={styles.flexDiv}>
           <div className={styles.formElement}>
-            <input
-              type="text"
-              placeholder="Your Name"
-              name="Name"
-            />
+            <input type="text" placeholder="Your Name" name="Name" />
           </div>
 
           <div className={styles.formElement} style={{ marginRight: 0 }}>
-            <input
-              type="email"
-              placeholder="Your Email"
-              name="Email ID"
-            />
+            <input type="email" placeholder="Your Email" name="Email ID" />
           </div>
         </div>
 
         <div className={styles.flexDiv}>
           <div className={styles.formElement}>
-            <input
-              type="text"
-              placeholder="Your Phone"
-              name="Mobile Number"
-            />
+            <input type="text" placeholder="Your Phone" name="Mobile Number" />
           </div>
 
           <div className={styles.formElement} style={{ marginRight: 0 }}>
-            <input
-              type="text"
-              placeholder="Your Class"
-              name="Class"
-            />
+            <input type="text" placeholder="Your Class" name="Class" />
           </div>
         </div>
 
         <div className={styles.formElement}>
-          <textarea
-            placeholder="Message"
-            name="Message"
-          />
+          <textarea placeholder="Message" name="Message" />
         </div>
 
         <button type="submit">Submit</button>
