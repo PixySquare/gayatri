@@ -6,7 +6,7 @@ function AcademicsComponent() {
   return (
     <div className={styles.wrapper} id="academics">
       <h1 style={{ fontSize: 48, textAlign: "left", marginBottom: 10 }}>
-        Children
+        Academics
       </h1>
       <Image src="/assets/underlines/3.png" width="200" height="20" />
       <div className={styles.flexDiv}>
@@ -16,21 +16,11 @@ function AcademicsComponent() {
         >
           {/* <h2 style={{ marginTop: 0 }}>Methodology</h2> */}
           <p className={styles.lightFont} style={{ paddingRight: 30 }}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est
-            placerat in egestas. Ultricies lacus sed turpis tincidunt. In
-            nisl.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est
-            placerat in egestas.Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Fringilla urna porttitor rhoncus dolor. Ornare
-            lectus sit amet est placerat in egestas
+          The basic theme in methodology of teaching in Gayatri Institute is the fact that we give the utmost important to the basics of concepts of students and how students apply those concepts, both in questions ranging from easy to difficult but more importantly how these concepts are applied in real life. Combine that with specialised classes from classes 1-12, and students are just continually in a habit of practising concepts, asking questions and following a routine.
           </p>
         </div>
         <div className={styles.imageDiv}>
-          <Image src={img} />
+          <Image src={img} alt="hello"/>
         </div>
       </div>
       {/* <Accordian

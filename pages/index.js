@@ -24,9 +24,9 @@ export default function Home() {
       {/* <CarouselCover /> */}
       <IntroComponent />
       <AboutUs />
-      <HistorySection />
-      <VisionSection />
-      <FounderSection />
+      {/* <HistorySection /> */}
+      {/* <VisionSection /> */}
+      {/* <FounderSection /> */}
       <TimeLine />
       <AcademicsComponent />
       <TeamComponent />

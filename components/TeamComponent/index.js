@@ -3,11 +3,11 @@ import CardComponent from "../CardComponent";
 function TeamComponent() {
   return (
     <div className={styles.wrapper}>
-      <p>
+      {/* <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
         tempor incididunt ut labore et dolore magna aliqua. Fringilla urna
         porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas.{" "}
-      </p>
+      </p> */}
       <div className={styles.flexDiv}>
         <CardComponent />
         <CardComponent />

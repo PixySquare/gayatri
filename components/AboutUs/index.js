@@ -31,15 +31,7 @@ function AboutUs() {
               marginRight: "auto",
             }}
           >
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est
-            placerat in egestas. Ultricies lacus sed turpis tincidunt. In nisl
-            nisi scelerisque eu ultrices vitae auctor. Felis imperdiet proin
-            fermentum leo vel orci. Sed odio morbi quis commodo odio aenean.
-            Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sed
-            viverra tellus in hac. Egestas sed tempus urna et. Sed viverra
-            tellus in hac. Egestas sed tempus urna et.
+            Here at Gayatri Institute, we strive towards providing our students with the best teaching services, an enthusiastic and well qualified faculty along with affordable fees. Our focus upon building Strong conceptual understanding of topics among students helps us achieve our desired results; not only excellent marksheets, but smart individuals with an aptitude and appetite for grasping a wide range of concepts. While our Primary focus is on fundamental classes i.e I-VIII, we also have well structured tutoring services for higher classes i.e. IX-XII.
           </p>
         </div>
         <Image src={img2} alt={"image"} />
@@ -56,15 +48,7 @@ function AboutUs() {
 
         <div className={styles.rightDiv}>
           <p className={styles.lightFont}>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            Fringilla urna porttitor rhoncus dolor. Ornare lectus sit amet est
-            placerat in egestas. Ultricies lacus sed turpis tincidunt. In nisl
-            nisi scelerisque eu ultrices vitae auctor. Felis imperdiet proin
-            fermentum leo vel orci. Sed odio morbi quis commodo odio aenean.
-            Massa vitae tortor condimentum lacinia quis vel eros donec ac. Sed
-            viverra tellus in hac. Egestas sed tempus urna et. Sed viverra
-            tellus in hac. Egestas sed tempus urna et.
+          In the eventful month of August 2015, the family of Gayatri Institute started our journey to provide affordable education in the country. From there on, we have looked back only to reminisce about the beautiful journey we have had. Success speaks for itself as Gayatri Institute in the past few years has gone from a one center with over 5 branches opening all over Delhi. 
           </p>
           <div className={styles.innerFlexDiv}>
             <div style={{ textAlign: "left" }}>
