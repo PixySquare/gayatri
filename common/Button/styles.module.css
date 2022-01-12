@@ -1,0 +1,35 @@
+.button {
+    border: 0.15rem solid #58af65 ;
+    border-radius: 1rem;
+    background-color: #58af65;
+    color: #ffffff;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    height: 2rem;
+    width: 7rem;
+    cursor: pointer;
+    
+  }
+  
+.button:hover {
+    background-color: #fff;
+    color: #58af65 !important;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .button{
+        font-size: 3.5vw;
+        border: 2px solid #58af65;
+        border-radius: 20px;
+        background-color: white;
+        color: DD1919;
+        padding: 3px 10px;
+        cursor: pointer;
+    }
+}
