@@ -4,15 +4,15 @@
   width: 100%;
   left: 50%;
   transform: translateX(-50%);
-  padding: 1rem;
+  padding: 0.4rem;
   display: flex;
   font-size: 1.15rem;
   justify-content: space-around;
   background: transparent;
   z-index: 100;
-  background-color: #0d0d0f;
-  padding-left: 10vw;
-  padding-right: 10vw;
+  background-color: #58585880;
+  padding-left: 5rem;
+  padding-right: 5rem;
   color: #fff;
   border-bottom: 2px solid #fff;
   /* margin-bottom: 100px; */

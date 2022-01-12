@@ -23,6 +23,10 @@ export default function Home() {
       <Header />
       {/* <CarouselCover /> */}
       <IntroComponent />
+      <br />
+      <br />
+      <br />
+
       <AboutUs />
       {/* <HistorySection /> */}
       {/* <VisionSection /> */}
