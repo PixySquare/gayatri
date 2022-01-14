@@ -35,4 +35,7 @@
   .map {
     width: 100%;
   }
+  .wrapper {
+    width: 100% !important;
+  }
 }
