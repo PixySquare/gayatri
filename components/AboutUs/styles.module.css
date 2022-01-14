@@ -10,8 +10,7 @@
 .flexContainer {
   margin-top: 50px;
   display: flex;
-  /* justify-content: center; */
-  /* align-items: center; */
+  align-items: top;
 }
 
 .flexContainer span {
@@ -19,12 +18,12 @@
 }
 
 .innerContainer {
-  width: 50%;
+  width: 70%;
   text-align: center;
   padding: 30px;
+  padding-right: 0px;
   padding-left: 0px;
   padding-top: 0px;
-  /* font-size: 15px; */
   font-weight: 300;
   line-height: 33.5px;
 }
@@ -61,12 +60,20 @@
   /* padding-right:20px; */
 }
 
+.imgContainer {
+  width: 40%;
+}
+
 @media (max-width: 1055px) {
   .flexContainer {
     flex-direction: column;
   }
 
   .innerContainer {
+    width: 100%;
+  }
+
+  .imgContainer {
     width: 100%;
   }
 

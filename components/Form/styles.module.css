@@ -11,7 +11,6 @@
   padding: 3rem;
   position: relative;
   overflow: hidden;
-
 }
 
 .form:after {
@@ -25,9 +24,6 @@
   -webkit-clip-path: ellipse(50% 60% at 50% 100%);
   clip-path: ellipse(50% 60% at 50% 100%);
 }
-
-
-
 
 .form input {
   border-radius: 5px;
@@ -122,6 +118,7 @@
   .form {
     width: 100%;
     padding: 1rem;
+    padding-bottom: 2rem;
   }
   .formElement {
     width: 100% !important;
@@ -151,4 +148,3 @@
   margin-right: auto;
   color: blue;
 }
-

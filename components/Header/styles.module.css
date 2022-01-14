@@ -19,6 +19,9 @@
   /* font-weight: lighter !important; */
   align-items: center;
 }
+.erpLink {
+  display: none;
+}
 
 .brand {
   flex: 0.33;
@@ -31,7 +34,6 @@
 }
 
 .collapse {
-  flex: 1;
   display: flex;
   justify-content: space-between;
   /* align-items: center; */
@@ -115,6 +117,10 @@
 }
 
 @media (max-width: 1055px) {
+  .erpLink {
+    display: block;
+  }
+
   .innerDiv {
     flex-direction: column;
     justify-content: center;
@@ -174,4 +180,27 @@
     justify-content: center;
     align-items: center;
   }
+  .button2 {
+    display: none;
+  }
+}
+
+.button2 {
+  border: 0.15rem solid #707070;
+  border-radius: 4px;
+  background-color: #707070;
+  color: #ffffff;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  align-items: center;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.button2:hover {
+  background-color: #fff;
+  color: #707070 !important;
+  transition: all 0.5s;
 }

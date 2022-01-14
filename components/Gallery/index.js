@@ -32,11 +32,15 @@ function Gallery() {
             <Image src={img} alt="Gallery image 5" className="gallery__img" />
           </figure>
           <figure className="gallery__item gallery__item--6">
-            <Image src={img} alt="Gallery image 6" className="gallery__img" />
+            <Image
+              src={img}
+              alt="Gallery image 6"
+              className="gallery__img last_image"
+            />
+            <div className={styles.seeMore}>
+              <span> Explore More &#8594;</span>
+            </div>
           </figure>
-        </div>
-        <div className={styles.seeMore}>
-          <span> Explore More</span>
         </div>
       </div>
     </div>

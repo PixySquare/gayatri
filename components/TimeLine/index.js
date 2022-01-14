@@ -28,69 +28,74 @@ export default function TimeLine() {
           height="20"
           className={styles.imgLine}
         />
-        <Timeline position="alternate">
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineDot variant="outlined" />
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent>
-              {" "}
-              We give them solid conceptual understanding to help them clearn
-              their understanding of the subject, and make them fall in love
-              with it!
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineDot variant="outlined" color="primary" />
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent>
-              {" "}
-              We give them solid conceptual understanding to help them clearn
-              their understanding of the subject, and make them fall in love
-              with it!
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineDot variant="outlined" color="secondary" />
-              <TimelineConnector />
-            </TimelineSeparator>
-            <TimelineContent>
-              {" "}
-              We give them solid conceptual understanding to help them clearn
-              their understanding of the subject, and make them fall in love
-              with it!
-            </TimelineContent>
-          </TimelineItem>
-          <TimelineItem>
-            <TimelineSeparator>
-              <TimelineDot variant="outlined" />
-            </TimelineSeparator>
-            <TimelineContent>
-              {" "}
-              We give them solid conceptual understanding to help them clearn
-              their understanding of the subject, and make them fall in love
-              with it!
-            </TimelineContent>
-          </TimelineItem>
-        </Timeline>
-      </div>
-      <div className={styles.secondContainer}>
-        <h3>2021</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur </p>
-        <h3>2021</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur </p>
-        <h3>2021</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur </p>
-        <h3>2021</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur </p>
-        <h3>2021</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur </p>
-        <h3>2021</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur </p>
+        <div className="timeline">
+          <div className="container left">
+            <div className="content">
+              <h2>2017</h2>
+              <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+                admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+                quis iuvaret expetendis his, te elit voluptua dignissim per,
+                habeo iusto primis ea eam.
+              </p>
+            </div>
+          </div>
+          <div className="container right">
+            <div className="content">
+              <h2>2016</h2>
+              <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+                admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+                quis iuvaret expetendis his, te elit voluptua dignissim per,
+                habeo iusto primis ea eam.
+              </p>
+            </div>
+          </div>
+          <div className="container left">
+            <div className="content">
+              <h2>2015</h2>
+              <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+                admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+                quis iuvaret expetendis his, te elit voluptua dignissim per,
+                habeo iusto primis ea eam.
+              </p>
+            </div>
+          </div>
+          <div className="container right">
+            <div className="content">
+              <h2>2012</h2>
+              <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+                admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+                quis iuvaret expetendis his, te elit voluptua dignissim per,
+                habeo iusto primis ea eam.
+              </p>
+            </div>
+          </div>
+          {/* <div className="container left">
+            <div className="content">
+              <h2>2011</h2>
+              <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+                admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+                quis iuvaret expetendis his, te elit voluptua dignissim per,
+                habeo iusto primis ea eam.
+              </p>
+            </div>
+          </div>
+          <div className="container right">
+            <div className="content">
+              <h2>2007</h2>
+              <p>
+                Lorem ipsum dolor sit amet, quo ei simul congue exerci, ad nec
+                admodum perfecto mnesarchum, vim ea mazim fierent detracto. Ea
+                quis iuvaret expetendis his, te elit voluptua dignissim per,
+                habeo iusto primis ea eam.
+              </p>
+            </div>
+          </div> */}
+        </div>
       </div>
     </div>
   );

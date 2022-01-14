@@ -26,8 +26,10 @@
   .secondContainer {
     display: block;
   }
-
   .innerContainer {
-    display: none;
+    width: 100%;
+  }
+  .container {
+    padding: 0px;
   }
 }
