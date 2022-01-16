@@ -1,6 +1,10 @@
 import styles from "./styles.module.css";
 import img2 from "../../public/assets/images/intro2.png";
-import person from "../../public/assets/images/person.png";
+import person from "../../public/assets/images/owner.jpeg";
+import person12 from "../../public/assets/images/person.jpeg";
+import person13 from "../../public/assets/images/person2.jpeg";
+import person14 from "../../public/assets/images/person3.jpeg";
+
 import person2 from "../../public/assets/images/person2.png";
 import Image from "next/image";
 
@@ -48,11 +52,21 @@ function AboutUs() {
       </div>
 
       <div className={styles.secondDiv}>
-        <div style={{ textAlign: "left" }}>
+        <div
+          style={{
+            textAlign: "left",
+            marginTop: "40px",
+            height: "20vh",
+            width: "30vw",
+          }}
+        >
           <Image src={person} alt={"image"} />
-          <h4>Name Surname</h4>
-          <p className={styles.lightFont} style={{ marginTop: -20 }}>
-            Position
+          <h4 style={{ marginTop: "0", marginBottom: "0" }}>Shubham Dubey</h4>
+          <p
+            className={styles.lightFont}
+            style={{ marginTop: -20, marginTop: "0" }}
+          >
+            Senior Manager
           </p>
         </div>
 
@@ -67,24 +81,39 @@ function AboutUs() {
           </p>
           <div className={styles.innerFlexDiv}>
             <div style={{ textAlign: "left" }}>
-              <Image src={person2} height="280px" width="210px" />
-              <h4>Name Surname</h4>
-              <p className={styles.lightFont} style={{ marginTop: -20 }}>
+              <Image src={person12} height="280px" width="210px" />
+              <h4 style={{ marginTop: "0", marginBottom: "0" }}>
+                Pratik Goyal
+              </h4>
+              <p
+                className={styles.lightFont}
+                style={{ marginTop: -20, marginTop: "0" }}
+              >
                 Position
               </p>
             </div>
             <div style={{ textAlign: "left" }}>
-              <Image src={person2} height="280px" width="210px" />
-              <h4>Name Surname</h4>
-              <p className={styles.lightFont} style={{ marginTop: -20 }}>
+              <Image src={person13} height="280px" width="210px" />
+              <h4 style={{ marginTop: "0", marginBottom: "0" }}>
+                Mishank Goyal
+              </h4>
+              <p
+                className={styles.lightFont}
+                style={{ marginTop: -20, marginTop: "0" }}
+              >
                 Position
               </p>
             </div>
             <div style={{ textAlign: "left" }}>
-              <Image src={person2} height="280px" width="210px" />
-              <h4>Name Surname</h4>
-              <p className={styles.lightFont} style={{ marginTop: -20 }}>
-                Position
+              <Image src={person14} height="280px" width="210px" />
+              <h4 style={{ marginTop: "0", marginBottom: "0" }}>
+                Dr. Ashok Arya
+              </h4>
+              <p
+                className={styles.lightFont}
+                style={{ marginTop: -20, marginTop: "0" }}
+              >
+                Hod science
               </p>
             </div>
           </div>
