@@ -18,7 +18,7 @@
 }
 
 .innerContainer {
-  width: 70%;
+  width: 50%;
   text-align: center;
   padding: 30px;
   padding-right: 0px;
@@ -61,7 +61,7 @@
 }
 
 .imgContainer {
-  width: 40%;
+  width: 50%;
 }
 
 @media (max-width: 1055px) {
