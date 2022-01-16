@@ -7,10 +7,12 @@ function Gallery() {
       <div className={styles.innerContainer}>
         <h1
           style={{
-            fontSize: 40,
+            fontSize: 80,
             color: "#fff",
             marginTop: 0,
             marginBottom: 30,
+            textAlign: "center",
+            fontFamily: "chalkie2",
           }}
         >
           Gallery
