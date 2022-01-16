@@ -1,13 +1,14 @@
 .container {
   width: 100%;
   display: block;
-  padding: 150px;
+  padding: 15px;
   background: url(../../public/assets/images/board.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   color: #fff;
   margin-bottom: 0;
+  padding-bottom: 100px;
 }
 
 .innerContainer {

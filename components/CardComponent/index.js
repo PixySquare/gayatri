@@ -6,9 +6,12 @@ function CardComponent() {
     <div className={styles.wrapper}>
       <Image src={img} />
       <div className={styles.info}>
-        <p style={{ fontWeight: "bolder" }}>Name Surname</p>
-        <p>Class 1</p>
-        <p>Lorem ipsum dolor sit amet, consectetur </p>
+        <p style={{ fontWeight: "bolder", margin: 0 }}>
+          Name Surname - Class 1
+        </p>
+        <p styles={{ margin: 0, textAlign: "left" }}>
+          Lorem ipsum dolor sit amet, consectetur{" "}
+        </p>
       </div>
     </div>
   );

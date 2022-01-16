@@ -57,6 +57,10 @@ export default function Home() {
       {/* <VisionSection /> */}
       {/* <FounderSection /> */}
       <TimeLine />
+
+      <br />
+      <br />
+      <br />
       <AcademicsComponent />
       <TeamComponent />
       <Gallery />
