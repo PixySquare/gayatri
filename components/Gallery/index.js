@@ -3,7 +3,7 @@ import img from "../../public/assets/images/default.png";
 import Image from "next/image";
 function Gallery() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="gallery">
       <div className={styles.innerContainer}>
         <h1
           style={{

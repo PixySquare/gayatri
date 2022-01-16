@@ -31,7 +31,7 @@ function Form() {
   };
 
   return (
-    <div className={styles.form}>
+    <div className={styles.form} id="contact">
       {/* {loading ? <Loading /> : null} */}
 
       <form action="https://formsubmit.co/heemankv@gmail.com" method="POST">
@@ -76,7 +76,6 @@ function Form() {
       <br />
       <br />
       <br />
-
     </div>
   );
 }

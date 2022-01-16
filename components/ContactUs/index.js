@@ -3,7 +3,7 @@ import LocationCard from "../LocationCard";
 
 function ContactUs() {
   return (
-    <div className={styles.wrapper} id="contact">
+    <div className={styles.wrapper} id="sw">
       <h1 style={{ textAlign: "left" }}>Locations</h1>
       <div className={styles.flexDiv}>
         <LocationCard />
@@ -11,7 +11,6 @@ function ContactUs() {
         <LocationCard />
         <LocationCard />
         <LocationCard />
-
       </div>
     </div>
   );

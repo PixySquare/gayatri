@@ -10,7 +10,7 @@ import Image from "next/image";
 
 export default function TimeLine() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="Timeline">
       <div className={styles.innerContainer}>
         <h1
           style={{
@@ -27,6 +27,7 @@ export default function TimeLine() {
           width="200"
           height="20"
           className={styles.imgLine}
+          alt="gayatri "
         />
         <div className="timeline">
           <div className="container left">

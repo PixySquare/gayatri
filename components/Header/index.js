@@ -41,7 +41,7 @@ function Header() {
   }
 
   return (
-    <div className={styles.header}>
+    <div className={styles.header} id="header">
       <div
         className={styles.logoDiv}
         style={{
@@ -132,7 +132,7 @@ function Header() {
             <a
               href="/"
               onClick={(e) => {
-                const findus = document.getElementById("gallery");
+                const findus = document.getElementById("Timeline");
                 e.preventDefault();
                 if (process.browser) {
                   if (window.innerWidth < 1055) {
@@ -149,11 +149,11 @@ function Header() {
                   window.location.href != "http://localhost:3000/" &&
                   window.location.href != "https://pizzacassino.vercel.app/"
                 ) {
-                  location.href = "/#history";
+                  location.href = "/#Timeline";
                 }
               }}
             >
-              <div className={styles.nav_item}>Vision and Mission</div>
+              <div className={styles.nav_item}>Our Journey</div>
             </a>
 
             <a
@@ -186,6 +186,33 @@ function Header() {
             <a
               href="/"
               onClick={(e) => {
+                const blogs = document.getElementById("gallery");
+                e.preventDefault();
+                if (process.browser) {
+                  if (window.innerWidth < 1055) {
+                    setOpen(false);
+                  }
+                }
+                blogs &&
+                  blogs.scrollIntoView({
+                    behavior: "smooth",
+                    block: "start",
+                  });
+                // window.history.pushState("blogs", "blogs", "/blogs");
+                if (
+                  window.location.href != "http://localhost:3000/" &&
+                  window.location.href != "https://pizzacassino.vercel.app/"
+                ) {
+                  location.href = "/#gallery";
+                }
+              }}
+            >
+              <div className={styles.nav_item}>Gallery</div>
+            </a>
+
+            <a
+              href="/"
+              onClick={(e) => {
                 const team = document.getElementById("contact");
                 e.preventDefault();
                 if (process.browser) {
@@ -204,8 +231,9 @@ function Header() {
                 }
               }}
             >
-              <div className={styles.nav_item}>Contact Us</div>
+              <div className={styles.nav_item}>Reach us</div>
             </a>
+
             <a href="/" className={styles.erpLink}>
               <div className={styles.nav_item}>ERP Login</div>
             </a>

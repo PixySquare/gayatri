@@ -2,9 +2,11 @@
   background: url(../../public/assets/images/intro.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100vw;
   padding-bottom: 2vw;
   padding-top: 1vw;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #fff !important;
   min-height: 80vh;
 }
@@ -87,6 +89,7 @@
 
   .outerWrapper {
     height: 42vh !important;
+    min-height: 0vh;
   }
   .card {
     width: 75vw !important;

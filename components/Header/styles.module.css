@@ -10,7 +10,7 @@
   justify-content: space-around;
   background: transparent;
   z-index: 100;
-  background-color: #58585880;
+  background-color: #58585800;
   padding-left: 5rem;
   padding-right: 5rem;
   color: #fff;
@@ -203,4 +203,9 @@
   background-color: #fff;
   color: #707070 !important;
   transition: all 0.5s;
+}
+
+.image {
+  width: 100%;
+  height: auto;
 }

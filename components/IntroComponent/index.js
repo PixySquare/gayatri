@@ -7,10 +7,11 @@ function IntroComponent() {
     <div className={styles.wrapper} id="home">
       <div className={styles.outerWrapper}></div>
       <div className={styles.card}>
-        <span>We offer tuition for students of classes</span>
-        <br />
-        <h3> 1st to 12th</h3>
-        <h3> All subjects</h3>
+        <span style={{ fontWeight: "normal" }}>
+          We offer tuition for students of classes
+        </span>
+        <h2 style={{ margin: 0 }}> 1st to 12th</h2>
+        <h2 style={{ margin: 0 }}> All subjects</h2>
       </div>
     </div>
   );
