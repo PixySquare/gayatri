@@ -15,14 +15,14 @@ function AboutUs() {
         style={{
           textAlign: "left",
           fontSize: "48px",
-          fontWeight: "bolder",
-          marginBottom: 10,
+          fontWeight: "900",
+          marginBottom: 0,
+          fontFamily: "chalkie2",
         }}
       >
         {" "}
-        About Us
+        ABOUT US
       </h1>
-      <Image src="/assets/underlines/1.png" width="200" height="20" />
 
       <div className={styles.flexContainer}>
         <div className={styles.innerContainer}>
@@ -55,9 +55,9 @@ function AboutUs() {
         <div
           style={{
             textAlign: "left",
-            marginTop: "40px",
-            height: "20vh",
-            width: "30vw",
+            marginTop: "3vh",
+            height: "40%",
+            width: "30%",
           }}
         >
           <Image src={person} alt={"image"} />

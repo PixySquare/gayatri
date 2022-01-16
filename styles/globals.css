@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'chalkie';
-  src: url('/assets/fonts/chalkie.ttf');
+  font-family: "chalkie2";
+  src: url("/assets/fonts/Chakie2.ttf");
 }
 
 html,
@@ -12,7 +12,12 @@ body {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: chalkie, sans-serif;
 }
 
