@@ -9,6 +9,7 @@
   background-position: center;
   color: #fff !important;
   min-height: 80vh;
+  clip-path: polygon(100% 100%, 100% 0%, 0% 0%, 0% 100%, 8% 88%, 8% 89%, 24% 71%, 33% 63%, 42% 59%, 52% 57%, 62% 57%, 71% 62%, 80% 68%, 87% 78%);
 }
 
 .card {
