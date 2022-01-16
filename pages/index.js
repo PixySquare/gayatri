@@ -26,11 +26,17 @@ export default function Home() {
   });
 
   const handleScroll = () => {
-    // if (window.pageYOffset > 0) {
-    //   const about = window.getElementById("aboutus");
-    //   about.add(" colorHeader");
-    // }
-    console.log("scroll");
+    if (window.pageYOffset > 0) {
+      console.log("scroll");
+      const header = document.getElementById("header");
+      header.classList.add("colorHeader");
+
+      // const about = window.getElementById("aboutus");
+      // about.add(" colorHeader");
+    } else if (window.pageYOffset === 0) {
+      const header = document.getElementById("header");
+      header.classList.remove("colorHeader");
+    }
   };
 
   return (
