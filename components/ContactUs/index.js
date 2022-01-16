@@ -4,13 +4,15 @@ import LocationCard from "../LocationCard";
 function ContactUs() {
   return (
     <div className={styles.wrapper} id="sw">
-      <h1 style={{ textAlign: "left" }}>Locations</h1>
+      <h1 style={{ textAlign: "left", fontFamily: "chalkie2", fontSize: 70 }}>
+        Locations
+      </h1>
       <div className={styles.flexDiv}>
-        <LocationCard />
-        <LocationCard />
-        <LocationCard />
-        <LocationCard />
-        <LocationCard />
+        <LocationCard address={"address line 1"} number={"9876543210"} />
+        <LocationCard address={"address line 1"} number={"9876543210"} />
+        <LocationCard address={"address line 1"} number={"9876543210"} />
+        <LocationCard address={"address line 1"} number={"9876543210"} />
+        <LocationCard address={"address line 1"} number={"9876543210"} />
       </div>
     </div>
   );

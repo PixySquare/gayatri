@@ -34,14 +34,19 @@ function Form() {
     <div className={styles.form} id="contact">
       {/* {loading ? <Loading /> : null} */}
 
-      <form action="https://formsubmit.co/heemankv@gmail.com" method="POST">
+      <form
+        action="https://formsubmit.co/heemankv@gmail.com"
+        method="POST"
+        className={styles.main}
+      >
         <h1
           className={styles.title}
           style={{
-            textAlign: "left",
-            marginLeft: "10%",
-            fontSize: 48,
+            textAlign: "center",
+            marginLeft: "",
+            fontSize: 68,
             marginBottom: 30,
+            fontFamily: "chalkie2",
           }}
         >
           Contact Us

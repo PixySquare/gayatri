@@ -63,6 +63,9 @@ export default function Home() {
       <br />
       <AcademicsComponent />
       <TeamComponent />
+      <br />
+      <br />
+      <br />
       <Gallery />
       <ContactUs />
       <Form />
