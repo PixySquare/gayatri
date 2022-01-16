@@ -49,7 +49,7 @@ function AboutUs() {
 
       <div className={styles.secondDiv}>
         <div style={{ textAlign: "left" }}>
-          <Image src={person} />
+          <Image src={person} alt={"image"} />
           <h4>Name Surname</h4>
           <p className={styles.lightFont} style={{ marginTop: -20 }}>
             Position
