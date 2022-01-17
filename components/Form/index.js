@@ -4,6 +4,7 @@ import { useState } from "react";
 // import { db } from "../../firebase";
 import styles from "./styles.module.css";
 // import Loading from "../Loading";
+import { Fade } from "react-awesome-reveal";
 
 function Form() {
   //   const router = useRouter();
@@ -51,42 +52,47 @@ function Form() {
         >
           Contact Us
         </h1>
-
-        <div className={styles.flexDiv}>
-          <div
-            className={styles.formElement}
-            styles={{ fontFamily: "poppins" }}
-          >
-            <input
-              type="text"
+        <Fade>
+          <div className={styles.flexDiv}>
+            <div
+              className={styles.formElement}
               styles={{ fontFamily: "poppins" }}
-              placeholder="Your Name"
-              name="Name"
-            />
+            >
+              <input
+                type="text"
+                styles={{ fontFamily: "poppins" }}
+                placeholder="Your Name"
+                name="Name"
+              />
+            </div>
+
+            <div className={styles.formElement} style={{ marginRight: 0 }}>
+              <input type="email" placeholder="Your Email" name="Email ID" />
+            </div>
           </div>
 
-          <div className={styles.formElement} style={{ marginRight: 0 }}>
-            <input type="email" placeholder="Your Email" name="Email ID" />
-          </div>
-        </div>
+          <div className={styles.flexDiv}>
+            <div className={styles.formElement}>
+              <input
+                type="text"
+                placeholder="Your Phone"
+                name="Mobile Number"
+              />
+            </div>
 
-        <div className={styles.flexDiv}>
+            <div className={styles.formElement} style={{ marginRight: 0 }}>
+              <input type="text" placeholder="Your Class" name="Class" />
+            </div>
+          </div>
+
           <div className={styles.formElement}>
-            <input type="text" placeholder="Your Phone" name="Mobile Number" />
+            <textarea placeholder="Message" name="Message" />
           </div>
 
-          <div className={styles.formElement} style={{ marginRight: 0 }}>
-            <input type="text" placeholder="Your Class" name="Class" />
-          </div>
-        </div>
-
-        <div className={styles.formElement}>
-          <textarea placeholder="Message" name="Message" />
-        </div>
-
-        <button styles={{ fontFamily: "poppins" }} type="submit">
-          Submit
-        </button>
+          <button styles={{ fontFamily: "poppins" }} type="submit">
+            Submit
+          </button>
+        </Fade>
       </form>
       <br />
       <br />
