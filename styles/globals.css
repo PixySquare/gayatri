@@ -135,7 +135,7 @@ figure {
 
 /* Container around content */
 .container {
-  padding: 10px 40px;
+  padding: 40px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
@@ -216,36 +216,65 @@ figure {
   font-size: 5rem;
 }
 
+.onMobile {
+  display: none;
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+  .onMobile {
+    display: block !important;
+  }
+
+  .onDesktop {
+    display: none;
+  }
+
   .headings {
     font-size: 3rem;
   }
+
+  .timeline {
+  }
   /* Place the timelime to the left */
   .timeline::after {
-    left: 31px;
+    left: 1px;
   }
 
   /* Full-width containers */
   .container {
     width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
+    padding-left: 30px;
+    padding-right: 15px;
+  }
+
+  .container.right h1 .first {
+    margin-top: 0;
+  }
+
+  .container.left h1 {
+    margin-top: 0;
+  }
+
+  .container.right {
+    margin-top: 0;
+    padding-bottom: 100px;
+  }
+
+  .left:after {
+    left: -15px;
+    text-align: left !important;
   }
 
   /* Make sure that all arrows are pointing leftwards */
   .container::before {
-    left: 60px;
+    left: 0px;
     border: medium solid white;
     border-width: 10px 10px 10px 0;
     border-color: transparent white transparent transparent;
   }
 
   /* Make sure all circles are at the same spot */
-  .left::after,
-  .right::after {
-    left: 15px;
-  }
 
   /* Make all right containers behave like the left ones */
   .right {
@@ -253,6 +282,7 @@ figure {
     text-align: left !important;
   }
   .left {
+    left: 0%;
     text-align: left !important;
   }
 }
