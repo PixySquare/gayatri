@@ -2,6 +2,8 @@ import Image from "next/image";
 import Accordian from "../Accordian";
 import styles from "./styles.module.css";
 import img from "../../public/assets/images/intro2.png";
+import { Fade } from "react-awesome-reveal";
+
 function AcademicsComponent() {
   return (
     <div className={styles.wrapper} id="academics">
@@ -44,9 +46,11 @@ function AcademicsComponent() {
             routine.
           </p>
         </div>
-        <div className={styles.imageDiv}>
-          <Image src={img} alt="hello" />
-        </div>
+        <Fade>
+          <div className={styles.imageDiv}>
+            <Image src={img} alt="hello" />
+          </div>
+        </Fade>
       </div>
       {/* <Accordian
         title="Class1"

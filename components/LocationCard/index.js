@@ -2,6 +2,7 @@ import styles from "./styles.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import srcc from "../../public/assets/maps.svg";
+import { Fade } from "react-awesome-reveal";
 
 function LocationCard(props) {
   return (
@@ -17,24 +18,29 @@ function LocationCard(props) {
             loading="lazy"
           ></iframe>
         </div>
-        <div className="lol_flex">
-          <div>
-            <p styles={{ fontFamily: "poppins" }}> Address: {props.address} </p>
-            <p styles={{ fontFamily: "poppins" }}> Phone : {props.number} </p>
+        <Fade>
+          <div className="lol_flex">
+            <div>
+              <p styles={{ fontFamily: "poppins" }}>
+                {" "}
+                Address: {props.address}{" "}
+              </p>
+              <p styles={{ fontFamily: "poppins" }}> Phone : {props.number} </p>
+            </div>
+            <div className="lol_flex2 onMobile">
+              <Link href="/">
+                <a>
+                  <Image
+                    src={srcc}
+                    alt="Picture of the author"
+                    height="50"
+                    width="50"
+                  />
+                </a>
+              </Link>
+            </div>
           </div>
-          <div className="lol_flex2 onMobile">
-            <Link href="/">
-              <a>
-                <Image
-                  src={srcc}
-                  alt="Picture of the author"
-                  height="50"
-                  width="50"
-                />
-              </a>
-            </Link>
-          </div>
-        </div>
+        </Fade>
       </div>
     </div>
   );

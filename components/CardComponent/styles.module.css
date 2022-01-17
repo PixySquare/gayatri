@@ -18,7 +18,7 @@
   font-weight: 300;
   color: #333;
   margin: 0;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 @media (max-width: 1055px) {
@@ -34,5 +34,13 @@
     min-width: 50% !important;
     text-align: center;
     padding: 10px;
+  }
+
+  .info p {
+    font-weight: 300;
+    color: #333;
+    margin: 0;
+    line-height: 1;
+    font-size: 0.8rem;
   }
 }

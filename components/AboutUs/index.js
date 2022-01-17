@@ -23,7 +23,7 @@ function AboutUs() {
         className="headings"
       >
         {" "}
-        ABOUT US
+        Gayatri Institute
       </span>
 
       <div className={styles.flexContainer}>
@@ -36,7 +36,6 @@ function AboutUs() {
               width: "80%",
               marginRight: "auto",
               fontFamily: "poppins",
-              lineHeight: 1.2,
             }}
           >
             Here at Gayatri Institute, we strive towards providing our students
@@ -50,11 +49,9 @@ function AboutUs() {
             classes i.e. IX-XII.
           </p>
         </div>
-        <Fade>
-          <div className={styles.imgContainer}>
-            <Image src={img2} alt={"image"} />
-          </div>
-        </Fade>
+        <div className={styles.imgContainer}>
+          <Image src={img2} alt={"image"} />
+        </div>
       </div>
 
       <div className={styles.secondDiv}>
@@ -67,7 +64,9 @@ function AboutUs() {
             width: "35%",
           }}
         >
-          <Image src={person} alt={"image"} />
+          <Fade>
+            <Image src={person} alt={"image"} />
+          </Fade>
           <h4
             style={{ marginTop: "0", marginBottom: "0", fontFamily: "poppins" }}
           >
@@ -93,7 +92,9 @@ function AboutUs() {
               float: "left",
             }}
           >
-            <Image src={person} alt={"image"} />
+            <Fade>
+              <Image src={person} alt={"image"} />
+            </Fade>
             <h4
               style={{
                 marginTop: "0",
@@ -112,7 +113,7 @@ function AboutUs() {
                 lineHeight: 1.2,
               }}
             >
-              Senior Manager
+              Founder
             </p>
           </div>
           <p className={styles.lightFont} style={{ fontFamily: "poppins" }}>
@@ -129,7 +130,9 @@ function AboutUs() {
               className={styles.rowImg}
               style={{ fontFamily: "poppins", textAlign: "left" }}
             >
-              <Image src={person12} height="280px" width="210px" />
+              <Fade>
+                <Image src={person12} height="280px" width="210px" />
+              </Fade>
               <h4
                 style={{
                   fontFamily: "poppins",
@@ -150,7 +153,9 @@ function AboutUs() {
               className={styles.rowImg}
               style={{ fontFamily: "poppins", textAlign: "left" }}
             >
-              <Image src={person13} height="280px" width="210px" />
+              <Fade>
+                <Image src={person13} height="280px" width="210px" />
+              </Fade>
               <h4
                 style={{
                   fontFamily: "poppins",
@@ -171,7 +176,9 @@ function AboutUs() {
               className={styles.rowImg}
               style={{ fontFamily: "poppins", textAlign: "left" }}
             >
-              <Image src={person14} height="280px" width="210px" />
+              <Fade>
+                <Image src={person14} height="280px" width="250px" />
+              </Fade>
               <h4
                 style={{
                   fontFamily: "poppins",

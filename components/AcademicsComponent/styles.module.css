@@ -36,6 +36,7 @@
     display: block;
     margin-left: auto !important;
     margin-right: auto;
+    font-size: 0.9rem;
   }
   .lightFont {
     padding-right: 0 !important;
