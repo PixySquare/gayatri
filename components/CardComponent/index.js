@@ -10,9 +10,10 @@ function CardComponent() {
           Name Surname - Class 1
         </p>
         <p styles={{ fontFamily: "poppins", margin: 0, fontSize: "3rem" }}>
-          Lorem ipsum dolor sit amet, consectetur{" "}
+          Lorem ipsum dolor{" "}
         </p>
       </div>
+      <br />
     </div>
   );
 }

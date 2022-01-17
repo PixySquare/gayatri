@@ -4,6 +4,7 @@ import person from "../../public/assets/images/owner.jpeg";
 import person12 from "../../public/assets/images/person.jpeg";
 import person13 from "../../public/assets/images/person2.jpeg";
 import person14 from "../../public/assets/images/person3.jpeg";
+import { Fade } from "react-awesome-reveal";
 
 import person2 from "../../public/assets/images/person2.png";
 import Image from "next/image";
@@ -49,14 +50,16 @@ function AboutUs() {
             classes i.e. IX-XII.
           </p>
         </div>
-        <div className={styles.imgContainer}>
-          <Image src={img2} alt={"image"} />
-        </div>
+        <Fade>
+          <div className={styles.imgContainer}>
+            <Image src={img2} alt={"image"} />
+          </div>
+        </Fade>
       </div>
 
       <div className={styles.secondDiv}>
         <div
-          className={styles.mainImgUpper}
+          className={styles.mainImgUpper + " border"}
           style={{
             textAlign: "left",
             marginTop: "1.6vh",
@@ -74,7 +77,7 @@ function AboutUs() {
             className={styles.lightFont}
             style={{ fontFamily: "poppins", marginTop: -20, marginTop: "0" }}
           >
-            Senior Manager
+            Founder
           </p>
         </div>
 

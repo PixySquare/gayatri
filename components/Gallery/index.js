@@ -28,7 +28,7 @@ function Gallery() {
     <div className={styles.container} id="gallery">
       <div className={styles.innerContainer}>
         <h1
-          className="headings"
+          className="headings2"
           style={{
             color: "#fff",
             marginTop: 0,
@@ -38,7 +38,7 @@ function Gallery() {
             color: "#aec336",
           }}
         >
-          Gallery
+          Our Achievements
         </h1>
         <div className=" onDesktop">
           <div className={styles.gallery}>
@@ -82,28 +82,29 @@ function Gallery() {
             dotListClass="custom-dot-list-style"
             itemClass="carousel-item-padding-40-px"
           >
-            <div>
+            <div styles={{ margin: 3 }}>
               <Image
                 src={img}
                 alt="Gallery image 6"
                 className="gallery__img last_image"
               />
             </div>
-            <div>
+            <div styles={{ margin: 3 }}>
+              <Image
+                src={img}
+                styles={{ margin: 3 }}
+                alt="Gallery image 6"
+                className="gallery__img last_image"
+              />
+            </div>
+            <div styles={{ margin: 3 }}>
               <Image
                 src={img}
                 alt="Gallery image 6"
                 className="gallery__img last_image"
               />
             </div>
-            <div>
-              <Image
-                src={img}
-                alt="Gallery image 6"
-                className="gallery__img last_image"
-              />
-            </div>
-            <div>
+            <div styles={{ margin: 3 }}>
               <Image
                 src={img}
                 alt="Gallery image 6"
