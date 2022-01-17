@@ -86,7 +86,10 @@ function AboutUs() {
             with over 5 branches opening all over Delhi.
           </p>
           <div className={styles.innerFlexDiv}>
-            <div style={{ fontFamily: "poppins", textAlign: "left" }}>
+            <div
+              className={styles.rowImg}
+              style={{ fontFamily: "poppins", textAlign: "left" }}
+            >
               <Image src={person12} height="280px" width="210px" />
               <h4
                 style={{
@@ -104,7 +107,10 @@ function AboutUs() {
                 Position
               </p>
             </div>
-            <div style={{ fontFamily: "poppins", textAlign: "left" }}>
+            <div
+              className={styles.rowImg}
+              style={{ fontFamily: "poppins", textAlign: "left" }}
+            >
               <Image src={person13} height="280px" width="210px" />
               <h4
                 style={{
@@ -122,7 +128,10 @@ function AboutUs() {
                 Position
               </p>
             </div>
-            <div style={{ fontFamily: "poppins", textAlign: "left" }}>
+            <div
+              className={styles.rowImg}
+              style={{ fontFamily: "poppins", textAlign: "left" }}
+            >
               <Image src={person14} height="280px" width="210px" />
               <h4
                 style={{
