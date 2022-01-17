@@ -55,11 +55,11 @@ export default function TimeLine() {
               <div className="content">
                 <h1
                   style={{ fontFamily: "poppins", marginBottom: 0 }}
-                  className={styles.first}
+                  className={styles.first + " lolhead"}
                 >
                   2015
                 </h1>
-                <p style={{ fontFamily: "poppins" }}>
+                <p style={{ fontFamily: "poppins" }} className=" lolpara">
                   The first Branch of Gayatri Institute opens in our own home,
                   thanks to the hardwork and tireless efforts of our founder,
                   Mr. Shubham Dubey.
@@ -68,8 +68,13 @@ export default function TimeLine() {
             </div>
             <div className="container left">
               <div className="content">
-                <h1 style={{ fontFamily: "poppins", marginBottom: 0 }}>2017</h1>
-                <p style={{ fontFamily: "poppins" }}>
+                <h1
+                  style={{ fontFamily: "poppins", marginBottom: 0 }}
+                  className=" lolhead"
+                >
+                  2017
+                </h1>
+                <p style={{ fontFamily: "poppins" }} className=" lolpara">
                   The second branch of Gayatri Institute and our dream Institute
                   centre opens up in Nawada Housing Complex as we expand for the
                   first time, spreading our wings further into the horizon.
@@ -78,8 +83,13 @@ export default function TimeLine() {
             </div>
             <div className="container right">
               <div className="content">
-                <h1 style={{ fontFamily: "poppins", marginBottom: 0 }}>2019</h1>
-                <p style={{ fontFamily: "poppins" }}>
+                <h1
+                  className=" lolhead"
+                  style={{ fontFamily: "poppins", marginBottom: 0 }}
+                >
+                  2019
+                </h1>
+                <p style={{ fontFamily: "poppins" }} className=" lolpara">
                   We partner up with another like-minded individual, as Gayatri
                   Institute tests new but faithful waters in opening up a
                   franchise in Kiran Garden, with Mr. Prateek Goyal.
@@ -88,10 +98,13 @@ export default function TimeLine() {
             </div>
             <div className="container left">
               <div className="content">
-                <h1 style={{ fontFamily: "poppins ", marginBottom: 0 }}>
+                <h1
+                  className=" lolhead"
+                  style={{ fontFamily: "poppins ", marginBottom: 0 }}
+                >
                   2020
                 </h1>
-                <p style={{ fontFamily: "poppins" }}>
+                <p style={{ fontFamily: "poppins" }} className=" lolpara">
                   Another one of our Centre&apos;s branch open up in Dwarka Mor,
                   under the careful and valuable supervision of our founder Mr,
                   Shubham Dubey
@@ -100,8 +113,13 @@ export default function TimeLine() {
             </div>
             <div className="container right">
               <div className="content">
-                <h1 style={{ fontFamily: "poppins", marginBottom: 0 }}>2021</h1>
-                <p style={{ fontFamily: "poppins" }}>
+                <h1
+                  className=" lolhead"
+                  style={{ fontFamily: "poppins", marginBottom: 0 }}
+                >
+                  2021
+                </h1>
+                <p style={{ fontFamily: "poppins" }} className=" lolpara">
                   We partner up with another like-minded individual, as Gayatri
                   Institute opens up our newest franchise in Jain Colony Dwarka,
                   with Mr. Mishank Goyal.
