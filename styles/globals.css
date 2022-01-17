@@ -114,7 +114,10 @@ figure {
 .timeline {
   margin-top: 30px;
   position: relative;
-  max-width: 1200px;
+  max-width: 80%;
+
+  margin-left: 10%;
+  margin-right: 10%;
   padding-bottom: 20px;
 }
 
