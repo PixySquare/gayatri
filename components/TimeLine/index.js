@@ -19,6 +19,7 @@ export default function TimeLine() {
             color: "white",
             marginBottom: 10,
             fontFamily: "chalkie2",
+            color: "#3ebb87",
           }}
         >
           TIMELINE

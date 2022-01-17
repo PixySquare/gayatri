@@ -11,18 +11,19 @@ import Image from "next/image";
 function AboutUs() {
   return (
     <div className={styles.wrapper} id="aboutus">
-      <h1
+      <span
         style={{
           textAlign: "left",
           fontSize: "48px",
           fontWeight: "900",
           marginBottom: 0,
           fontFamily: "chalkie2",
+          color: "#5279ba",
         }}
       >
         {" "}
         ABOUT US
-      </h1>
+      </span>
 
       <div className={styles.flexContainer}>
         <div className={styles.innerContainer}>

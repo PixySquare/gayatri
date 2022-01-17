@@ -13,6 +13,7 @@ function Gallery() {
             marginBottom: 30,
             textAlign: "center",
             fontFamily: "chalkie2",
+            color: "#aec336",
           }}
         >
           Gallery

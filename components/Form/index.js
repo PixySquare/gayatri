@@ -47,6 +47,7 @@ function Form() {
             fontSize: 68,
             marginBottom: 30,
             fontFamily: "chalkie2",
+            color: "#2e92bc",
           }}
         >
           Contact Us

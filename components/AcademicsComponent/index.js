@@ -11,6 +11,7 @@ function AcademicsComponent() {
           textAlign: "left",
           marginBottom: 10,
           fontFamily: "chalkie2",
+          color: "#bc5287",
         }}
       >
         Academics

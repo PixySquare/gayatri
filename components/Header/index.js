@@ -41,206 +41,207 @@ function Header() {
   }
 
   return (
-    <div className={styles.header} id="header">
-      <div
-        className={styles.logoDiv}
-        style={{
-          display: "flex",
-          flexDirection: "row",
-          alignItems: "left",
-          // flex: 0.3,
-        }}
-      >
+    <>
+      <div className={styles.header} id="header">
         <div
+          className={styles.logoDiv}
           style={{
-            minWidth: 20,
-            maxWidth: 50,
-            padding: 7,
             display: "flex",
-            alignItems: "center",
+            flexDirection: "row",
+            alignItems: "left",
+            // flex: 0.3,
           }}
-        ></div>
-        <Link
-          href="/"
-          passHref
-          onClick={(e) => {
-            e.preventDefault();
-            if (process.browser) {
-              if (window.innerWidth < 1055) {
-                setOpen(false);
+        >
+          <div
+            style={{
+              minWidth: 20,
+              maxWidth: 50,
+              padding: 7,
+              display: "flex",
+              alignItems: "center",
+            }}
+          ></div>
+          <Link
+            href="/"
+            passHref
+            onClick={(e) => {
+              e.preventDefault();
+              if (process.browser) {
+                if (window.innerWidth < 1055) {
+                  setOpen(false);
+                }
               }
-            }
-          }}
-        >
-          <Image className={styles.image} src={Icon} alt={"title"} />
-        </Link>
-      </div>
+            }}
+          >
+            <Image className={styles.image} src={Icon} alt={"title"} />
+          </Link>
+        </div>
 
-      <div className={styles.menu} onClick={() => setOpen(!open)}>
-        {open ? (
-          <>
-            <div className={styles.change1}></div>
-            <div className={styles.change2}></div>
-            <div className={styles.change3}></div>
-          </>
-        ) : (
-          <>
-            <div className={styles.bar1}></div>
-            <div className={styles.bar2}></div>
-            <div className={styles.bar3}></div>
-          </>
-        )}
-      </div>
+        <div className={styles.menu} onClick={() => setOpen(!open)}>
+          {open ? (
+            <>
+              <div className={styles.change1}></div>
+              <div className={styles.change2}></div>
+              <div className={styles.change3}></div>
+            </>
+          ) : (
+            <>
+              <div className={styles.bar1}></div>
+              <div className={styles.bar2}></div>
+              <div className={styles.bar3}></div>
+            </>
+          )}
+        </div>
 
-      {open && (
-        <div
-          className={styles.collapse}
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-          }}
-        >
-          <div className={styles.divColumn} style={{ display: "flex" }}>
-            <a
-              href="/"
-              onClick={(e) => {
-                const about = document.getElementById("aboutus");
-                e.preventDefault();
-                if (process.browser) {
-                  if (window.innerWidth < 1055) {
-                    setOpen(false);
+        {open && (
+          <div
+            className={styles.collapse}
+            style={{
+              display: "flex",
+              justifyContent: "space-between",
+              alignItems: "center",
+            }}
+          >
+            <div className={styles.divColumn} style={{ display: "flex" }}>
+              <a
+                href="/"
+                onClick={(e) => {
+                  const about = document.getElementById("aboutus");
+                  e.preventDefault();
+                  if (process.browser) {
+                    if (window.innerWidth < 1055) {
+                      setOpen(false);
+                    }
                   }
-                }
-                about &&
-                  about.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start",
-                  });
+                  about &&
+                    about.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
 
-                if (
-                  window.location.href != "http://localhost:3000/" &&
-                  window.location.href != "https://pizzacassino.vercel.app/"
-                ) {
-                  location.href = "/#aboutus";
-                }
-              }}
-            >
-              <div className={styles.nav_item}>About Us</div>
-            </a>
-
-            <a
-              href="/"
-              onClick={(e) => {
-                const findus = document.getElementById("Timeline");
-                e.preventDefault();
-                if (process.browser) {
-                  if (window.innerWidth < 1055) {
-                    setOpen(false);
+                  if (
+                    window.location.href != "http://localhost:3000/" &&
+                    window.location.href != "https://pizzacassino.vercel.app/"
+                  ) {
+                    location.href = "/#aboutus";
                   }
-                }
-                findus &&
-                  findus.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start",
-                  });
-                // window.history.pushState("findus", "findus", "/findus");
-                if (
-                  window.location.href != "http://localhost:3000/" &&
-                  window.location.href != "https://pizzacassino.vercel.app/"
-                ) {
-                  location.href = "/#Timeline";
-                }
-              }}
-            >
-              <div className={styles.nav_item}>Our Journey</div>
-            </a>
+                }}
+              >
+                <div className={styles.nav_item}>About Us</div>
+              </a>
 
-            <a
-              href="/"
-              onClick={(e) => {
-                const blogs = document.getElementById("academics");
-                e.preventDefault();
-                if (process.browser) {
-                  if (window.innerWidth < 1055) {
-                    setOpen(false);
+              <a
+                href="/"
+                onClick={(e) => {
+                  const findus = document.getElementById("Timeline");
+                  e.preventDefault();
+                  if (process.browser) {
+                    if (window.innerWidth < 1055) {
+                      setOpen(false);
+                    }
                   }
-                }
-                blogs &&
-                  blogs.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start",
-                  });
-                // window.history.pushState("blogs", "blogs", "/blogs");
-                if (
-                  window.location.href != "http://localhost:3000/" &&
-                  window.location.href != "https://pizzacassino.vercel.app/"
-                ) {
-                  location.href = "/#academics";
-                }
-              }}
-            >
-              <div className={styles.nav_item}>Academics</div>
-            </a>
-
-            <a
-              href="/"
-              onClick={(e) => {
-                const blogs = document.getElementById("gallery");
-                e.preventDefault();
-                if (process.browser) {
-                  if (window.innerWidth < 1055) {
-                    setOpen(false);
+                  findus &&
+                    findus.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
+                  // window.history.pushState("findus", "findus", "/findus");
+                  if (
+                    window.location.href != "http://localhost:3000/" &&
+                    window.location.href != "https://pizzacassino.vercel.app/"
+                  ) {
+                    location.href = "/#Timeline";
                   }
-                }
-                blogs &&
-                  blogs.scrollIntoView({
-                    behavior: "smooth",
-                    block: "start",
-                  });
-                // window.history.pushState("blogs", "blogs", "/blogs");
-                if (
-                  window.location.href != "http://localhost:3000/" &&
-                  window.location.href != "https://pizzacassino.vercel.app/"
-                ) {
-                  location.href = "/#gallery";
-                }
-              }}
-            >
-              <div className={styles.nav_item}>Gallery</div>
-            </a>
+                }}
+              >
+                <div className={styles.nav_item}>Our Journey</div>
+              </a>
 
-            <a
-              href="/"
-              onClick={(e) => {
-                const team = document.getElementById("contact");
-                e.preventDefault();
-                if (process.browser) {
-                  if (window.innerWidth < 1055) {
-                    setOpen(false);
+              <a
+                href="/"
+                onClick={(e) => {
+                  const blogs = document.getElementById("academics");
+                  e.preventDefault();
+                  if (process.browser) {
+                    if (window.innerWidth < 1055) {
+                      setOpen(false);
+                    }
                   }
-                }
-                team &&
-                  team.scrollIntoView({ behavior: "smooth", block: "start" });
-                // window.history.pushState("team", "team", "/team");
-                if (
-                  window.location.href != "http://localhost:3000/" &&
-                  window.location.href != "https://pizzacassino.vercel.app/"
-                ) {
-                  location.href = "/#contact";
-                }
-              }}
-            >
-              <div className={styles.nav_item}>Reach us</div>
-            </a>
+                  blogs &&
+                    blogs.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
+                  // window.history.pushState("blogs", "blogs", "/blogs");
+                  if (
+                    window.location.href != "http://localhost:3000/" &&
+                    window.location.href != "https://pizzacassino.vercel.app/"
+                  ) {
+                    location.href = "/#academics";
+                  }
+                }}
+              >
+                <div className={styles.nav_item}>Academics</div>
+              </a>
 
-            <a href="/" className={styles.erpLink}>
-              <div className={styles.nav_item}>ERP Login</div>
-            </a>
-          </div>
+              <a
+                href="/"
+                onClick={(e) => {
+                  const blogs = document.getElementById("gallery");
+                  e.preventDefault();
+                  if (process.browser) {
+                    if (window.innerWidth < 1055) {
+                      setOpen(false);
+                    }
+                  }
+                  blogs &&
+                    blogs.scrollIntoView({
+                      behavior: "smooth",
+                      block: "start",
+                    });
+                  // window.history.pushState("blogs", "blogs", "/blogs");
+                  if (
+                    window.location.href != "http://localhost:3000/" &&
+                    window.location.href != "https://pizzacassino.vercel.app/"
+                  ) {
+                    location.href = "/#gallery";
+                  }
+                }}
+              >
+                <div className={styles.nav_item}>Gallery</div>
+              </a>
 
-          <div className={styles.socials}>
-            {/* <Link href={"https://www.instagram.com"}>
+              <a
+                href="/"
+                onClick={(e) => {
+                  const team = document.getElementById("contact");
+                  e.preventDefault();
+                  if (process.browser) {
+                    if (window.innerWidth < 1055) {
+                      setOpen(false);
+                    }
+                  }
+                  team &&
+                    team.scrollIntoView({ behavior: "smooth", block: "start" });
+                  // window.history.pushState("team", "team", "/team");
+                  if (
+                    window.location.href != "http://localhost:3000/" &&
+                    window.location.href != "https://pizzacassino.vercel.app/"
+                  ) {
+                    location.href = "/#contact";
+                  }
+                }}
+              >
+                <div className={styles.nav_item}>Reach us</div>
+              </a>
+
+              <a href="/" className={styles.erpLink}>
+                <div className={styles.nav_item}>ERP Login</div>
+              </a>
+            </div>
+
+            <div className={styles.socials}>
+              {/* <Link href={"https://www.instagram.com"}>
                 <a target="_blank" className={styles.nav_item}>
                   <FontAwesomeIcon icon={faInstagram} size="lg" />
                 </a>
@@ -255,13 +256,14 @@ function Header() {
                   <FontAwesomeIcon icon={faWhatsapp} size="lg" />
                 </a>
               </Link> */}
+            </div>
           </div>
+        )}
+        <div className={styles.button2}>
+          <Link href={"https://www.google.com"}>ERP Login</Link>
         </div>
-      )}
-      <div className={styles.button2}>
-        <Link href={"https://www.google.com"}>ERP Login</Link>
       </div>
-    </div>
+    </>
   );
 }
 
