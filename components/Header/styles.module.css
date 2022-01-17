@@ -50,6 +50,7 @@
 }
 
 .nav_item {
+  font-size: 1.3rem;
   position: relative;
   margin: 0 1rem;
   cursor: pointer;
@@ -62,7 +63,6 @@
   left: 50%;
   content: "";
   display: block;
-  height: 2px;
   width: 0;
   position: absolute;
   background: #fff;

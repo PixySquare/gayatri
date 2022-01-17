@@ -107,8 +107,8 @@ figure {
   grid-row-end: 9;
 }
 .last_image {
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(1px);
+  -webkit-filter: blur(1px);
 }
 /* The actual timeline (the vertical ruler) */
 .timeline {

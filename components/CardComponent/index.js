@@ -9,7 +9,7 @@ function CardComponent() {
         <p style={{ fontWeight: "bolder", margin: 0 }}>
           Name Surname - Class 1
         </p>
-        <p styles={{ margin: 0, textAlign: "left" }}>
+        <p styles={{ margin: 0, fontSize: "3rem" }}>
           Lorem ipsum dolor sit amet, consectetur{" "}
         </p>
       </div>

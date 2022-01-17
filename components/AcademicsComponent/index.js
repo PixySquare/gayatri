@@ -10,6 +10,8 @@ function AcademicsComponent() {
           fontSize: 68,
           textAlign: "left",
           marginBottom: 10,
+          marginTop: 0,
+
           fontFamily: "chalkie2",
           color: "#bc5287",
         }}

@@ -11,15 +11,14 @@
 .info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  text-align: left;
 }
 
 .info p {
   font-weight: 300;
   color: #333;
-  line-height: 33.5px;
   margin: 0;
+  line-height: 1.5;
 }
 
 @media (max-width: 1055px) {

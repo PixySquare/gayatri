@@ -14,7 +14,7 @@ function AboutUs() {
       <span
         style={{
           textAlign: "left",
-          fontSize: "48px",
+          fontSize: "65px",
           fontWeight: "900",
           marginBottom: 0,
           fontFamily: "chalkie2",
@@ -56,9 +56,9 @@ function AboutUs() {
         <div
           style={{
             textAlign: "left",
-            marginTop: "3vh",
+            marginTop: "1.6vh",
             height: "40%",
-            width: "30%",
+            width: "35%",
           }}
         >
           <Image src={person} alt={"image"} />
