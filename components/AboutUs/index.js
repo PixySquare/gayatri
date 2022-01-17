@@ -23,7 +23,7 @@ function AboutUs() {
         className="headings"
       >
         {" "}
-        Gayatri Institute
+        About us
       </span>
 
       <div className={styles.flexContainer}>
@@ -74,7 +74,11 @@ function AboutUs() {
           </h4>
           <p
             className={styles.lightFont}
-            style={{ fontFamily: "poppins", marginTop: -20, marginTop: "0" }}
+            style={{
+              fontFamily: "poppins",
+              marginTop: -20,
+              marginTop: "0",
+            }}
           >
             Founder
           </p>
@@ -199,6 +203,7 @@ function AboutUs() {
           </div>
         </div>
       </div>
+      <br />
     </div>
   );
 }
