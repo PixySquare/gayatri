@@ -222,6 +222,14 @@ figure {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+  .lolhead {
+    font-size: 2rem !important;
+  }
+
+  .lolpara {
+    font-size: 0.8rem !important;
+  }
+
   .onMobile {
     display: block !important;
   }
@@ -259,21 +267,22 @@ figure {
   /* Full-width containers */
   .container {
     width: 100%;
-    padding-left: 30px;
+    padding-left: 25px;
     padding-right: 15px;
   }
 
-  .container.right h1 .first {
+  .container.right h1 {
     margin-top: 0;
+    padding-top: 0;
   }
 
   .container.left h1 {
     margin-top: 0;
+    padding-top: 0;
   }
 
   .container.right {
     margin-top: 0;
-    padding-bottom: 100px;
   }
 
   .left:after {
@@ -295,10 +304,12 @@ figure {
   .right {
     left: 0%;
     text-align: left !important;
+    padding-top: 15px;
   }
   .left {
     left: 0%;
     text-align: left !important;
+    padding-top: 15px;
   }
 }
 

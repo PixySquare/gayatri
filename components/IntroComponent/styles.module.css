@@ -2,10 +2,13 @@
   background: url(../../public/assets/images/intro.jpg);
   background-size: cover; /* <------ */
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position: center center;
+  padding-top: 0vw;
   width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center;
   color: #fff !important;
-  min-height: 80vh;
+  min-height: 110vh;
   /* clip-path: polygon(
     100% 100%,
     100% 0%,
@@ -101,22 +104,14 @@
   }
 
   .outerWrapper {
-    height: 35vh !important;
+    height: 32vh !important;
     min-height: 0vh;
-    background-size: auto cover;
   }
   .card {
-    width: 75vw !important;
-    top: -15vh !important;
-    padding: 1rem;
+    width: 40vw !important;
+    top: -10vh !important;
     max-width: 100vw !important;
-  }
-
-  .card span {
-    font-size: 20px;
-  }
-
-  .card h2 {
-    font-size: 25px;
+    max-height: 20vh !important;
+    padding: 0;
   }
 }
