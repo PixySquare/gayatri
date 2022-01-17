@@ -61,11 +61,8 @@ function Gallery() {
               <Image
                 src={img}
                 alt="Gallery image 6"
-                className="gallery__img last_image"
+                className="gallery__img "
               />
-              <div className={styles.seeMore}>
-                <span> Explore More &#8594;</span>
-              </div>
             </figure>
           </div>
         </div>

@@ -30,11 +30,12 @@ function AboutUs() {
           <p
             className={styles.lightFont}
             style={{
-              marginTop: 6,
+              marginTop: 3,
               textAlign: "left",
               width: "80%",
               marginRight: "auto",
               fontFamily: "poppins",
+              lineHeight: 1.2,
             }}
           >
             Here at Gayatri Institute, we strive towards providing our students
