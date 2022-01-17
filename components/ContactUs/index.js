@@ -6,11 +6,11 @@ function ContactUs() {
     <div className={styles.wrapper} id="sw">
       <h1
         style={{
-          textAlign: "left",
+          textAlign: "center",
           fontFamily: "chalkie2",
-          fontSize: 70,
           color: "#5c57a6",
         }}
+        className="headings"
       >
         Locations
       </h1>

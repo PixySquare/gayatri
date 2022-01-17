@@ -6,8 +6,8 @@ function AcademicsComponent() {
   return (
     <div className={styles.wrapper} id="academics">
       <h1
+        className="headings"
         style={{
-          fontSize: 68,
           textAlign: "left",
           marginBottom: 10,
           marginTop: 0,

@@ -6,8 +6,8 @@ function Gallery() {
     <div className={styles.container} id="gallery">
       <div className={styles.innerContainer}>
         <h1
+          className="headings"
           style={{
-            fontSize: 80,
             color: "#fff",
             marginTop: 0,
             marginBottom: 30,

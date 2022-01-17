@@ -39,5 +39,6 @@
   }
   .lightFont {
     padding-right: 0 !important;
+    margin-top: 0;
   }
 }

@@ -1,18 +1,40 @@
 import styles from "./styles.module.css";
+import Link from "next/link";
+import Image from "next/image";
+import srcc from "../../public/assets/maps.svg";
+
 function LocationCard(props) {
   return (
     <div className={styles.wrapper}>
       <div className={styles.map}>
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3504.8071986825257!2d77.2708664!3d28.5455143!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3e564daac1d%3A0x2c582e340e7bc556!2sIndraprastha%20Institute%20of%20Information%20Technology%20Delhi!5e0!3m2!1sen!2sin!4v1640326742896!5m2!1sen!2sin"
-          width="100%"
-          height="300"
-          style={{ borderRadius: "10px" }}
-          allowFullScreen=""
-          loading="lazy"
-        ></iframe>
-        <p styles={{ fontFamily: "poppins" }}> Address: {props.address} </p>
-        <p styles={{ fontFamily: "poppins" }}> Phone : {props.number} </p>
+        <div className="onDesktop">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3504.8071986825257!2d77.2708664!3d28.5455143!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce3e564daac1d%3A0x2c582e340e7bc556!2sIndraprastha%20Institute%20of%20Information%20Technology%20Delhi!5e0!3m2!1sen!2sin!4v1640326742896!5m2!1sen!2sin"
+            width="100%"
+            height="300"
+            style={{ borderRadius: "10px" }}
+            allowFullScreen=""
+            loading="lazy"
+          ></iframe>
+        </div>
+        <div className="lol_flex">
+          <div>
+            <p styles={{ fontFamily: "poppins" }}> Address: {props.address} </p>
+            <p styles={{ fontFamily: "poppins" }}> Phone : {props.number} </p>
+          </div>
+          <div className="lol_flex2 onMobile">
+            <Link href="/">
+              <a>
+                <Image
+                  src={srcc}
+                  alt="Picture of the author"
+                  height="50"
+                  width="50"
+                />
+              </a>
+            </Link>
+          </div>
+        </div>
       </div>
     </div>
   );

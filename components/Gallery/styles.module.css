@@ -38,3 +38,10 @@
   text-decoration: underline;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .container {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+  }
+}
