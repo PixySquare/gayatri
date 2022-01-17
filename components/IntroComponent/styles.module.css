@@ -1,14 +1,11 @@
 .outerWrapper {
   background: url(../../public/assets/images/intro.jpg);
+  background-size: cover; /* <------ */
   background-repeat: no-repeat;
-  background-size: cover;
-  padding-bottom: 2vw;
-  padding-top: 0vw;
+  background-position: center top;
   width: 100vw;
-  background-repeat: no-repeat;
-  background-position: center;
   color: #fff !important;
-  min-height: 110vh;
+  min-height: 80vh;
   /* clip-path: polygon(
     100% 100%,
     100% 0%,

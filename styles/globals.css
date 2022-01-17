@@ -253,3 +253,8 @@ figure {
 .colorHeader {
   background-color: #020202 !important;
 }
+
+.fade {
+  opacity: 1;
+  margin-bottom: 40px;
+}

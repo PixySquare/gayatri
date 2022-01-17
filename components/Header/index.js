@@ -54,8 +54,8 @@ function Header() {
         >
           <div
             style={{
-              minWidth: 20,
-              maxWidth: 50,
+              // minWidth: 20,
+              // maxWidth: 60,
               padding: 7,
               display: "flex",
               alignItems: "center",
