@@ -30,7 +30,10 @@ function AcademicsComponent() {
           }}
         >
           {/* <h2 style={{ marginTop: 0 }}>Methodology</h2> */}
-          <p className={styles.lightFont} style={{ paddingRight: 30 }}>
+          <p
+            className={styles.lightFont}
+            style={{ paddingRight: 30, lineHeight: 1.2 }}
+          >
             The basic theme in methodology of teaching in Gayatri Institute is
             the fact that we give the utmost important to the basics of concepts
             of students and how students apply those concepts, both in questions

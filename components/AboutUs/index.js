@@ -79,7 +79,10 @@ function AboutUs() {
         </div>
 
         <div className={styles.rightDiv}>
-          <p className={styles.lightFont} style={{ fontFamily: "poppins" }}>
+          <p
+            className={styles.lightFont}
+            style={{ fontFamily: "poppins", lineHeight: 1.2 }}
+          >
             In the eventful month of August 2015, the family of Gayatri
             Institute started our journey to provide affordable education in the
             country. From there on, we have looked back only to reminisce about

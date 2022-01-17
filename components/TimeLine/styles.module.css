@@ -1,9 +1,11 @@
 .container {
   width: 100%;
+  background: url(../../public/assets/images/Chalk_Text_Effect.jpg);
+  background-size: contain;
   display: block;
   padding: 15px;
   background-color: #1f1f1f;
-  background-size: contain;
+  background-size: cover;
   width: 100vw;
   color: #fff;
   margin-bottom: 0;
