@@ -143,6 +143,10 @@
   .form button {
     margin-right: 0% !important;
   }
+
+  .main {
+    width: 90%;
+  }
 }
 
 .socials {

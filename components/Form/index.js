@@ -40,11 +40,10 @@ function Form() {
         className={styles.main}
       >
         <h1
-          className={styles.title}
+          className=" headings"
           style={{
             textAlign: "center",
             marginLeft: "",
-            fontSize: 68,
             marginBottom: 30,
             fontFamily: "chalkie2",
             color: "#2e92bc",
