@@ -116,13 +116,13 @@ figure {
 }
 /* The actual timeline (the vertical ruler) */
 .timeline {
-  margin-top: 30px;
+  margin-top: 0px;
   position: relative;
   max-width: 80%;
 
   margin-left: 10%;
   margin-right: 10%;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }
 
 /* The actual timeline (the vertical ruler) */
@@ -224,10 +224,20 @@ figure {
   display: none;
 }
 
+.lolhead {
+  margin-top: 0 !important;
+  font-size: 4rem !important;
+}
+.lolpara {
+  font-size: 1.8rem !important;
+  margin: 0;
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .lolhead {
     font-size: 2rem !important;
+    margin-top: 0 !important;
   }
 
   .lolpara {

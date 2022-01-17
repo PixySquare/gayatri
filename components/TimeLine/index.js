@@ -54,7 +54,7 @@ export default function TimeLine() {
                 <div className="content">
                   <h1
                     style={{ fontFamily: "poppins", marginBottom: 0 }}
-                    className={styles.first + " lolhead"}
+                    className=" lolhead"
                   >
                     2015
                   </h1>

@@ -59,7 +59,7 @@ function AboutUs() {
           className={styles.mainImgUpper + " border"}
           style={{
             textAlign: "left",
-            marginTop: "1.6vh",
+            marginTop: "0",
             height: "40%",
             width: "35%",
           }}
@@ -85,7 +85,7 @@ function AboutUs() {
             className={styles.mainImg}
             style={{
               textAlign: "left",
-              marginTop: "1.6vh",
+              marginTop: "1.3vh",
               height: "40%",
               width: "35%",
               marginRight: 20,
@@ -124,6 +124,7 @@ function AboutUs() {
             Gayatri Institute in the past few years has gone from a one center
             with over 5 branches opening all over Delhi.
           </p>
+          <br />
 
           <div className={styles.innerFlexDiv}>
             <div
