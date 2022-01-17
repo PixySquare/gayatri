@@ -6,10 +6,10 @@ function CardComponent() {
     <div className={styles.wrapper}>
       <Image src={img} />
       <div className={styles.info}>
-        <p style={{ fontWeight: "bolder", margin: 0 }}>
+        <p style={{ fontFamily: "poppins", ontWeight: "bolder", margin: 0 }}>
           Name Surname - Class 1
         </p>
-        <p styles={{ margin: 0, fontSize: "3rem" }}>
+        <p styles={{ fontFamily: "poppins", margin: 0, fontSize: "3rem" }}>
           Lorem ipsum dolor sit amet, consectetur{" "}
         </p>
       </div>

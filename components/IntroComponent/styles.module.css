@@ -28,8 +28,8 @@
 }
 
 .card {
-  max-width: 40vw;
-  width: 60vw;
+  width: 35vw;
+  max-width: 35vw;
   height: auto;
   font-size: 1.5rem;
   padding-top: 0.7rem;

@@ -34,6 +34,7 @@ function AboutUs() {
               textAlign: "left",
               width: "80%",
               marginRight: "auto",
+              fontFamily: "poppins",
             }}
           >
             Here at Gayatri Institute, we strive towards providing our students
@@ -62,17 +63,21 @@ function AboutUs() {
           }}
         >
           <Image src={person} alt={"image"} />
-          <h4 style={{ marginTop: "0", marginBottom: "0" }}>Shubham Dubey</h4>
+          <h4
+            style={{ marginTop: "0", marginBottom: "0", fontFamily: "poppins" }}
+          >
+            Shubham Dubey
+          </h4>
           <p
             className={styles.lightFont}
-            style={{ marginTop: -20, marginTop: "0" }}
+            style={{ fontFamily: "poppins", marginTop: -20, marginTop: "0" }}
           >
             Senior Manager
           </p>
         </div>
 
         <div className={styles.rightDiv}>
-          <p className={styles.lightFont}>
+          <p className={styles.lightFont} style={{ fontFamily: "poppins" }}>
             In the eventful month of August 2015, the family of Gayatri
             Institute started our journey to provide affordable education in the
             country. From there on, we have looked back only to reminisce about
@@ -81,9 +86,15 @@ function AboutUs() {
             with over 5 branches opening all over Delhi.
           </p>
           <div className={styles.innerFlexDiv}>
-            <div style={{ textAlign: "left" }}>
+            <div style={{ fontFamily: "poppins", textAlign: "left" }}>
               <Image src={person12} height="280px" width="210px" />
-              <h4 style={{ marginTop: "0", marginBottom: "0" }}>
+              <h4
+                style={{
+                  fontFamily: "poppins",
+                  marginTop: "0",
+                  marginBottom: "0",
+                }}
+              >
                 Pratik Goyal
               </h4>
               <p
@@ -93,9 +104,15 @@ function AboutUs() {
                 Position
               </p>
             </div>
-            <div style={{ textAlign: "left" }}>
+            <div style={{ fontFamily: "poppins", textAlign: "left" }}>
               <Image src={person13} height="280px" width="210px" />
-              <h4 style={{ marginTop: "0", marginBottom: "0" }}>
+              <h4
+                style={{
+                  fontFamily: "poppins",
+                  marginTop: "0",
+                  marginBottom: "0",
+                }}
+              >
                 Mishank Goyal
               </h4>
               <p
@@ -105,9 +122,15 @@ function AboutUs() {
                 Position
               </p>
             </div>
-            <div style={{ textAlign: "left" }}>
+            <div style={{ fontFamily: "poppins", textAlign: "left" }}>
               <Image src={person14} height="280px" width="210px" />
-              <h4 style={{ marginTop: "0", marginBottom: "0" }}>
+              <h4
+                style={{
+                  fontFamily: "poppins",
+                  marginTop: "0",
+                  marginBottom: "0",
+                }}
+              >
                 Dr. Ashok Arya
               </h4>
               <p

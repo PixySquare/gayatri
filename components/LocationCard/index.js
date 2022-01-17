@@ -11,8 +11,8 @@ function LocationCard(props) {
           allowFullScreen=""
           loading="lazy"
         ></iframe>
-        <p> Address: {props.address} </p>
-        <p> Phone : {props.number} </p>
+        <p styles={{ fontFamily: "poppins" }}> Address: {props.address} </p>
+        <p styles={{ fontFamily: "poppins" }}> Phone : {props.number} </p>
       </div>
     </div>
   );

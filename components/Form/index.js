@@ -54,8 +54,16 @@ function Form() {
         </h1>
 
         <div className={styles.flexDiv}>
-          <div className={styles.formElement}>
-            <input type="text" placeholder="Your Name" name="Name" />
+          <div
+            className={styles.formElement}
+            styles={{ fontFamily: "poppins" }}
+          >
+            <input
+              type="text"
+              styles={{ fontFamily: "poppins" }}
+              placeholder="Your Name"
+              name="Name"
+            />
           </div>
 
           <div className={styles.formElement} style={{ marginRight: 0 }}>
@@ -77,7 +85,9 @@ function Form() {
           <textarea placeholder="Message" name="Message" />
         </div>
 
-        <button type="submit">Submit</button>
+        <button styles={{ fontFamily: "poppins" }} type="submit">
+          Submit
+        </button>
       </form>
       <br />
       <br />

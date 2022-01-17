@@ -22,7 +22,12 @@ function AcademicsComponent() {
       <div className={styles.flexDiv}>
         <div
           className={styles.text}
-          style={{ textAlign: "left", width: "50%", marginRight: "10%" }}
+          style={{
+            fontFamily: "poppins",
+            textAlign: "left",
+            width: "50%",
+            marginRight: "10%",
+          }}
         >
           {/* <h2 style={{ marginTop: 0 }}>Methodology</h2> */}
           <p className={styles.lightFont} style={{ paddingRight: 30 }}>
