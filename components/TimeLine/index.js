@@ -7,14 +7,9 @@ import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
 import styles from "./styles.module.css";
 import Image from "next/image";
-import Aos from "aos";
 
 import { useEffect } from "react";
 export default function TimeLine() {
-  useEffect(() => {
-    Aos.init({ duration: 2000 });
-  }, []);
-
   return (
     <>
       <h1
