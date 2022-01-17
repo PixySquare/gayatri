@@ -310,3 +310,8 @@ figure {
   opacity: 1;
   margin-bottom: 40px;
 }
+
+.gaaa {
+  display: flex;
+  justify-content: flex-end;
+}
