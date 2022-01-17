@@ -212,8 +212,15 @@ figure {
   border-radius: 6px;
 }
 
+.headings {
+  font-size: 5rem;
+}
+
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
+  .headings {
+    font-size: 3rem;
+  }
   /* Place the timelime to the left */
   .timeline::after {
     left: 31px;

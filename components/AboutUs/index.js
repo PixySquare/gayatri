@@ -14,12 +14,12 @@ function AboutUs() {
       <span
         style={{
           textAlign: "left",
-          fontSize: "65px",
           fontWeight: "900",
           marginBottom: 0,
           fontFamily: "chalkie2",
           color: "#5279ba",
         }}
+        className="headings"
       >
         {" "}
         ABOUT US

@@ -50,7 +50,6 @@ export default function Home() {
       <br />
       <br />
       <br />
-      <br />
       <AboutUs />
       {/* <HistorySection /> */}
       {/* <VisionSection /> */}
