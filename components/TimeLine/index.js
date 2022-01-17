@@ -5,6 +5,7 @@ import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import TimelineContent from "@mui/lab/TimelineContent";
 import TimelineDot from "@mui/lab/TimelineDot";
+import {Fade} from "react-awesome-reveal";
 import styles from "./styles.module.css";
 import Image from "next/image";
 
@@ -46,6 +47,7 @@ export default function TimeLine() {
       alt="gayatri "
     /> */}
           <div className="timeline" data-aos="fade-up">
+            <Fade>
             <div className="container right">
               <div className="content">
                 <h1
@@ -61,6 +63,8 @@ export default function TimeLine() {
                 </p>
               </div>
             </div>
+            </Fade>
+            <Fade>
             <div className="container left">
               <div className="content">
                 <h1
@@ -76,6 +80,8 @@ export default function TimeLine() {
                 </p>
               </div>
             </div>
+            </Fade>
+            <Fade>
             <div className="container right">
               <div className="content">
                 <h1
@@ -91,6 +97,8 @@ export default function TimeLine() {
                 </p>
               </div>
             </div>
+          </Fade>
+            <Fade>
             <div className="container left">
               <div className="content">
                 <h1
@@ -106,6 +114,8 @@ export default function TimeLine() {
                 </p>
               </div>
             </div>
+            </Fade>
+            <Fade>
             <div className="container right">
               <div className="content">
                 <h1
@@ -121,6 +131,7 @@ export default function TimeLine() {
                 </p>
               </div>
             </div>
+          </Fade>
           </div>
         </div>
       </div>
