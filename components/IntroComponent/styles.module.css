@@ -101,13 +101,22 @@
   }
 
   .outerWrapper {
-    height: 42vh !important;
+    height: 35vh !important;
     min-height: 0vh;
+    background-size: auto cover;
   }
   .card {
     width: 75vw !important;
     top: -15vh !important;
     padding: 1rem;
     max-width: 100vw !important;
+  }
+
+  .card span {
+    font-size: 20px;
+  }
+
+  .card h2 {
+    font-size: 25px;
   }
 }
