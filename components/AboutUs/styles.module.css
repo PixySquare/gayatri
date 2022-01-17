@@ -69,7 +69,15 @@
   padding-top: 20px;
 }
 
+.mainImg {
+  display: none;
+}
+
 @media (max-width: 1055px) {
+  .mainImgUpper {
+    display: none;
+  }
+
   .flexContainer {
     flex-direction: column;
     align-items: center;
@@ -114,5 +122,8 @@
   }
   .rowImg {
     margin: 10px;
+  }
+  .mainImg {
+    display: block !important;
   }
 }

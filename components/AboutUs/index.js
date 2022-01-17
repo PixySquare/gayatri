@@ -55,6 +55,7 @@ function AboutUs() {
 
       <div className={styles.secondDiv}>
         <div
+          className={styles.mainImgUpper}
           style={{
             textAlign: "left",
             marginTop: "1.6vh",
@@ -85,6 +86,34 @@ function AboutUs() {
             Gayatri Institute in the past few years has gone from a one center
             with over 5 branches opening all over Delhi.
           </p>
+          <div
+            className={styles.mainImg}
+            style={{
+              textAlign: "left",
+              marginTop: "1.6vh",
+              height: "40%",
+              width: "35%",
+              marginLeft: "auto",
+              marginRight: "auto",
+            }}
+          >
+            <Image src={person} alt={"image"} />
+            <h4
+              style={{
+                marginTop: "0",
+                marginBottom: "0",
+                fontFamily: "poppins",
+              }}
+            >
+              Shubham Dubey
+            </h4>
+            <p
+              className={styles.lightFont}
+              style={{ fontFamily: "poppins", marginTop: -20, marginTop: "0" }}
+            >
+              Senior Manager
+            </p>
+          </div>
           <div className={styles.innerFlexDiv}>
             <div
               className={styles.rowImg}
