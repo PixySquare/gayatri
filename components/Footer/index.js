@@ -48,7 +48,7 @@ function Footer() {
       <hr style={{ width: "90%", marginLeft: "auto", marginRight: "auto" }} />
       <br />
       <div className={styles.wrapper}>
-        <span styles={{ fontFamily: "poppins" }}>Gayatri Institute </span>
+        <span styles={{ fontFamily: "poppins" }}>PixySquare </span>
         <span styles={{ fontFamily: "poppins" }}>
           @ Gayatri Institute, 2021
         </span>

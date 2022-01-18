@@ -1,5 +1,7 @@
 import styles from "./styles.module.css";
 import img2 from "../../public/assets/images/intro2.png";
+import img from "../../public/assets/path.jpeg";
+
 import person from "../../public/assets/images/owner.jpeg";
 import person12 from "../../public/assets/images/person.jpeg";
 import person13 from "../../public/assets/images/person2.jpeg";
@@ -25,7 +27,7 @@ function AboutUs() {
         About us
       </span>
 
-      <div className={styles.flexContainer}>
+      <div className={styles.flexContainer2}>
         <div className={styles.innerContainer}>
           <p
             className={styles.lightFont + " minorPara"}
@@ -44,147 +46,157 @@ function AboutUs() {
             classes i.e. IX-XII.
           </p>
         </div>
-        <div className={styles.imgContainer}>
+        <div className={styles.imgContainer1}>
           <Image src={img2} alt={"image"} />
         </div>
       </div>
 
+      <br />
+
       <div className={styles.secondDiv}>
-        <div
-          className={styles.mainImgUpper + " border"}
-          style={{
-            textAlign: "left",
-            marginTop: "0",
-            height: "40%",
-            width: "35%",
-          }}
-        >
-          <Fade>
-            <Image src={person} alt={"image"} />
-
-            <span
-              style={{
-                marginTop: "0",
-                marginBottom: "0",
-                fontFamily: "poppins",
-              }}
-              className="minorTag"
-            >
-              Shubham Dubey
-            </span>
-            <span
-              className={styles.lightFont + " minorTagunder"}
-              style={{
-                fontFamily: "poppins",
-                marginTop: -20,
-                marginTop: "0",
-              }}
-            >
-              Founder
-            </span>
-          </Fade>
-        </div>
-
-        <div className={styles.rightDiv}>
+        <div className={styles.flexContainer2}>
+          <div className={styles.imgContainer}>
+            <div>
+              <Fade>
+                <Image
+                  src={person}
+                  alt={"image"}
+                  height="380px"
+                  width="300px"
+                />
+              </Fade>
+            </div>
+            <div>
+              <div className="minorTag">Shubham Dubey</div>
+              <div
+                className={styles.lightFont + "  minorTagunder"}
+                style={{ margin: 0 }}
+              >
+                Founder
+              </div>
+            </div>
+          </div>
           <div
-            className={styles.mainImg}
+            className={" minorPara"}
             style={{
               textAlign: "left",
-              marginTop: "1.3vh",
-              marginRight: 20,
-              float: "left",
+              width: "60%",
             }}
           >
-            <Fade>
-              <Image src={person} alt={"image"} />
-            </Fade>
-            <span
-              className="minorTag"
-              style={{
-                marginTop: "0",
-                marginBottom: "0",
-              }}
-            >
-              Shubham Dubey
-            </span>
-            <span
-              className={styles.lightFont + "  minorTagunder"}
-              style={{
-                marginTop: -20,
-                marginTop: "0",
-              }}
-            >
-              Founder
-            </span>
-          </div>
-          <p className={styles.lightFont + " minorPara"}>
-            In the eventful month of August 2015, the family of Gayatri
-            Institute started our journey to provide affordable education in the
-            country. From there on, we have looked back only to reminisce about
-            the beautiful journey we have had. Success speaks for itself as
-            Gayatri Institute in the past few years has gone from a one center
-            with over 5 branches opening all over Delhi.
-          </p>
-          <br />
-
-          <div className={styles.innerFlexDiv}>
-            <div className={styles.rowImg} style={{ textAlign: "left" }}>
-              <Fade>
-                <Image
-                  src={person12}
-                  height="280px"
-                  width="220px"
-                  alt={"Mishank Goyal"}
-                />
-
-                <span className="minorTag">Dr. Ashok Arya</span>
-                <span
-                  className={styles.lightFont + "  minorTagunder"}
-                  style={{ marginTop: 6 }}
-                >
-                  Hod science
-                </span>
-              </Fade>
-            </div>
-            <div className={styles.rowImg} style={{ textAlign: "left" }}>
-              <Fade>
-                <Image
-                  src={person13}
-                  height="280px"
-                  width="220px"
-                  alt={"Mishank Goyal"}
-                />
-
-                <span className="minorTag">Dr. Ashok Arya</span>
-                <span
-                  className={styles.lightFont + "  minorTagunder"}
-                  style={{ marginTop: 6 }}
-                >
-                  Hod science
-                </span>
-              </Fade>
-            </div>
-            <div className={styles.rowImg} style={{ textAlign: "left" }}>
-              <Fade>
-                <Image
-                  src={person14}
-                  height="280px"
-                  width="250px"
-                  alt={"Mishank Goyal"}
-                />
-
-                <span className="minorTag">Dr. Ashok Arya</span>
-                <span
-                  className={styles.lightFont + "  minorTagunder"}
-                  style={{ marginTop: 6 }}
-                >
-                  Hod science
-                </span>
-              </Fade>
-            </div>
+            <h1 style={{ margin: 0, fontFamily: "chalkie2", color: "#5279ba" }}>
+              Founder's Note
+            </h1>
+            Dear Friends, Warm Greetings to you! The term education encompasses
+            more than just knowledge and knowing. It is a harmonious blend of
+            academia, arts, sports, emotions, attitudes, creativity, nature and
+            life itself! And in the world we have built today, the one who is
+            adept in all these areas is the one who succeeds. Ours is truly a
+            unique program and one that did not happen overnight. Rather, the
+            vision of Gayatri Institute was the result of several journeys,
+            including my own, which led us down this path. First and foremost,
+            we seek to create a stimulating, safe and respectful environment for
+            our students. Our teaching system embraces the “whole child”
+            supporting their individual differences and learning styles, while
+            encouraging each child into engaging interaction and meaningful
+            learning.
           </div>
         </div>
       </div>
+      <br />
+      <br />
+
+      <p className={styles.lightFont + " minorPara"}>
+        In the eventful month of August 2015, the family of Gayatri Institute
+        started our journey to provide affordable education in the country. From
+        there on, we have looked back only to reminisce about the beautiful
+        journey we have had. Success speaks for itself as Gayatri Institute in
+        the past few years has gone from a one center with over 5 branches
+        opening all over Delhi.
+      </p>
+      <div className={styles.innerFlexDiv}>
+        <div className={styles.rowImg} style={{ textAlign: "left" }}>
+          <Fade>
+            <Image
+              src={person12}
+              height="280px"
+              width="220px"
+              alt={"Mishank Goyal"}
+            />
+
+            <span className="minorTag">Pratik Goyal</span>
+            <span
+              className={styles.lightFont + "  minorTagunder"}
+              style={{ marginTop: 6 }}
+            >
+              Teaching Staff
+            </span>
+          </Fade>
+        </div>
+        <div className={styles.rowImg} style={{ textAlign: "left" }}>
+          <Fade>
+            <Image
+              src={person13}
+              height="280px"
+              width="220px"
+              alt={"Mishank Goyal"}
+            />
+
+            <span className="minorTag">Mishank Goyal</span>
+            <span
+              className={styles.lightFont + "  minorTagunder"}
+              style={{ marginTop: 6 }}
+            >
+              Teaching Staff
+            </span>
+          </Fade>
+        </div>
+        <div className={styles.rowImg} style={{ textAlign: "left" }}>
+          <Fade>
+            <Image
+              src={person14}
+              height="280px"
+              width="250px"
+              alt={"Mishank Goyal"}
+            />
+
+            <span className="minorTag">Dr. Ashok Arya</span>
+            <span
+              className={styles.lightFont + "  minorTagunder"}
+              style={{ marginTop: 6 }}
+            >
+              Teaching Staff
+            </span>
+          </Fade>
+        </div>
+      </div>
+      <div className={styles.flexContainer2}>
+        <div className={styles.innerContainer}>
+          <p
+            className={" minorPara"}
+            style={{
+              textAlign: "left",
+            }}
+          >
+            On our 5-year anniversary, 15th August 2020: Gayatri Institute
+            launched Pathshala. The Importance of Education is no secret. That
+            education has the power to change a life, is the greatest truth of
+            it all. Education is the single biggest platform that gives us a
+            chance to make a place for us in this society, make a name for
+            ourselves, challenge the definitions of success, push ourselves, be
+            better, serve better and be proudly independent. In any way,
+            education protecst a person both financially and also help them to
+            live their life on their own feet. Pathshala, is an educational
+            programme launched by TEAM GAYATRI as a helping hand to those
+            students who have a willingness to learn but not all the resources
+            to support them all the way through.
+          </p>
+        </div>
+        <div className={styles.imgContainer1}>
+          <Image src={img} alt={"image"} />
+        </div>
+      </div>
+      <br />
+      <br />
       <br />
     </div>
   );
