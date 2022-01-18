@@ -1,10 +1,31 @@
 import Image from "next/image";
 import Accordian from "../Accordian";
 import styles from "./styles.module.css";
-import img from "../../public/assets/certificate1.jpeg";
+import img from "../../public/assets/certificate2.jpeg";
 import { Fade } from "react-awesome-reveal";
+import Carousel from "react-multi-carousel";
+import "react-multi-carousel/lib/styles.css";
 
 function AcademicsComponent() {
+  const responsive = {
+    superLargeDesktop: {
+      // the naming can be any, depends on you.
+      breakpoint: { max: 4000, min: 3000 },
+      items: 5,
+    },
+    desktop: {
+      breakpoint: { max: 3000, min: 1024 },
+      items: 3,
+    },
+    tablet: {
+      breakpoint: { max: 1024, min: 464 },
+      items: 2,
+    },
+    mobile: {
+      breakpoint: { max: 464, min: 0 },
+      items: 1,
+    },
+  };
   return (
     <div className={styles.wrapper} id="academics">
       <h1
@@ -27,9 +48,7 @@ function AcademicsComponent() {
           style={{
             fontFamily: "poppins",
             textAlign: "left",
-            width: "70%",
-            marginRight: "10%",
-            marginTop: "3%",
+            width: "100%",
           }}
         >
           {/* <h2 style={{ marginTop: 0 }}>Methodology</h2> */}
@@ -46,7 +65,6 @@ function AcademicsComponent() {
             habit of practising concepts, asking questions and following a
             routine.
           </div>
-          <br />
         </div>
         <Fade>
           <div className={styles.imageDiv}>

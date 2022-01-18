@@ -4,6 +4,15 @@ import "react-multi-carousel/lib/styles.css";
 import img from "../../public/assets/images/default.png";
 import Image from "next/image";
 import Link from "next/link";
+import { Fade } from "react-awesome-reveal";
+
+import g1 from "../../public/assets/gallery/7.png";
+import g2 from "../../public/assets/gallery/21.png";
+import g3 from "../../public/assets/gallery/22.png";
+import g4 from "../../public/assets/gallery/5.png";
+import g5 from "../../public/assets/gallery/17.png";
+import g6 from "../../public/assets/gallery/3.png";
+
 function Gallery() {
   const responsive = {
     superLargeDesktop: {
@@ -40,32 +49,66 @@ function Gallery() {
         >
           Gallery
         </h1>
-        <div className=" onDesktop">
-          <div className={styles.gallery}>
-            <figure className="gallery__item gallery__item--1">
-              <Image src={img} alt="Gallery image 1" className="gallery__img" />
-            </figure>
-            <figure className="gallery__item gallery__item--2">
-              <Image src={img} alt="Gallery image 2" className="gallery__img" />
-            </figure>
-            <figure className="gallery__item gallery__item--3">
-              <Image src={img} alt="Gallery image 3" className="gallery__img" />
-            </figure>
-            <figure className="gallery__item gallery__item--4">
-              <Image src={img} alt="Gallery image 4" className="gallery__img" />
-            </figure>
-            <figure className="gallery__item gallery__item--5">
-              <Image src={img} alt="Gallery image 5" className="gallery__img" />
-            </figure>
-            <figure className="gallery__item gallery__item--6">
-              <Image
-                src={img}
-                alt="Gallery image 6"
-                className="gallery__img "
-              />
-            </figure>
+        <Fade>
+          <div className=" onDesktop">
+            <div className={styles.gallery}>
+              <figure className="gallery__item gallery__item--1">
+                <Image
+                  alt={
+                    "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                  }
+                  src={g1}
+                  style={{ width: "100%" }}
+                />
+              </figure>
+              <figure className="gallery__item gallery__item--2">
+                <Image
+                  alt={
+                    "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                  }
+                  src={g2}
+                  style={{ width: "100%" }}
+                />
+              </figure>
+              <figure className="gallery__item gallery__item--3">
+                <Image
+                  alt={
+                    "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                  }
+                  src={g3}
+                  style={{ width: "100%" }}
+                />
+              </figure>
+              <figure className="gallery__item gallery__item--4">
+                <Image
+                  alt={
+                    "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                  }
+                  src={g4}
+                  style={{ width: "100%" }}
+                />
+              </figure>
+              <figure className="gallery__item gallery__item--5">
+                <Image
+                  alt={
+                    "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                  }
+                  src={g5}
+                  style={{ width: "100%" }}
+                />
+              </figure>
+              <figure className="gallery__item gallery__item--6">
+                <Image
+                  alt={
+                    "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                  }
+                  src={g6}
+                  style={{ width: "100%" }}
+                />
+              </figure>
+            </div>
           </div>
-        </div>
+        </Fade>
         <div className="onMobile">
           <Carousel
             swipeable={true}
@@ -84,31 +127,38 @@ function Gallery() {
           >
             <div styles={{ margin: 3 }}>
               <Image
-                src={img}
-                alt="Gallery image 6"
-                className="gallery__img last_image"
+                alt={
+                  "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                }
+                src={g3}
+                style={{ width: "100%" }}
               />
             </div>
             <div styles={{ margin: 3 }}>
               <Image
-                src={img}
-                styles={{ margin: 3 }}
-                alt="Gallery image 6"
-                className="gallery__img last_image"
+                alt={
+                  "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                }
+                src={g2}
+                style={{ width: "100%" }}
               />
             </div>
             <div styles={{ margin: 3 }}>
               <Image
-                src={img}
-                alt="Gallery image 6"
-                className="gallery__img last_image"
+                alt={
+                  "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                }
+                src={g1}
+                style={{ width: "100%" }}
               />
             </div>
             <div styles={{ margin: 3 }}>
               <Image
-                src={img}
-                alt="Gallery image 6"
-                className="gallery__img last_image"
+                alt={
+                  "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                }
+                src={g4}
+                style={{ width: "100%" }}
               />
             </div>
           </Carousel>
