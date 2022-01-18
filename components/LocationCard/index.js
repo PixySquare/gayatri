@@ -21,11 +21,9 @@ function LocationCard(props) {
         <Fade>
           <div className="lol_flex">
             <div>
-              <p styles={{ fontFamily: "poppins" }}>
-                {" "}
-                Address: {props.address}{" "}
-              </p>
-              <p styles={{ fontFamily: "poppins" }}> Phone : {props.number} </p>
+              <p className="minorTag2"> {props.address} </p>
+              <p className="minorTag2"> {props.address2} </p>
+              <p className="minorTagunder"> Phone : {props.number} </p>
             </div>
             <div className="lol_flex2 onMobile">
               <Link href="/">

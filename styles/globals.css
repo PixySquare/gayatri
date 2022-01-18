@@ -232,12 +232,56 @@ figure {
   font-size: 1.8rem !important;
   margin: 0;
 }
+.minorPara {
+  font-family: "Poppins";
+  font-size: 1.3rem !important;
+}
+
+.minorTag {
+  font-family: "Poppins";
+  font-size: 1.4rem !important;
+  line-height: 1;
+}
+
+.minorTag2 {
+  font-family: "Poppins";
+  font-size: 1.2rem !important;
+  line-height: 1;
+}
+.minorTagunder {
+  font-family: "Poppins";
+  font-size: 1.1rem !important;
+  line-height: 0.2;
+}
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
   .lolhead {
     font-size: 2rem !important;
     margin-top: 0 !important;
+  }
+
+  .minorTag {
+    font-family: "Poppins";
+    font-size: 1rem !important;
+    line-height: 1.2;
+  }
+
+  .minorTag2 {
+    font-family: "Poppins";
+    font-size: 0.9rem !important;
+    line-height: 1.2;
+  }
+  .minorTagunder {
+    font-family: "Poppins";
+    font-size: 0.8rem !important;
+    line-height: 1.2;
+  }
+
+  .minorPara {
+    font-family: "Poppins";
+    font-size: 0.9rem !important;
+    line-height: 1.2;
   }
 
   .lolpara {
@@ -256,6 +300,10 @@ figure {
   .lol_flex2 {
     margin-top: 0.5rem;
     margin-bottom: 0.3rem;
+    max-width: 50px;
+    max-height: 50px;
+    min-width: 50px;
+    min-height: 50px;
   }
 
   .button2 {

@@ -3,19 +3,19 @@ import styles from "./styles.module.css";
 import img from "../../public/assets/images/default.png";
 import { Fade } from "react-awesome-reveal";
 
-function CardComponent() {
+function CardComponent(props) {
   return (
     <div className={styles.wrapper}>
       <Fade>
-        <Image src={img} />
+        <Image src={img} alt={"gayatri "} />
       </Fade>
       <div className={styles.info}>
-        <p style={{ fontFamily: "poppins", ontWeight: "bolder", margin: 0 }}>
-          Name Surname
-        </p>
-        <p style={{ fontFamily: "poppins", ontWeight: "bolder", margin: 0 }}>
-          Class 1
-        </p>
+        <div style={{ marginBottom: 6 }} className="minorTag">
+          {props.name}
+        </div>
+        <div style={{ margin: 0 }} className="minorTagunder">
+          {props.class}
+        </div>
         {/* <p styles={{ fontFamily: "poppins", margin: 0, fontSize: "3rem" }}>
           Lorem ipsum dolor{" "}
         </p> */}

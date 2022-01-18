@@ -29,13 +29,9 @@ function AboutUs() {
       <div className={styles.flexContainer}>
         <div className={styles.innerContainer}>
           <p
-            className={styles.lightFont}
+            className={styles.lightFont + " minorPara"}
             style={{
-              marginTop: 3,
               textAlign: "left",
-              width: "80%",
-              marginRight: "auto",
-              fontFamily: "poppins",
             }}
           >
             Here at Gayatri Institute, we strive towards providing our students
@@ -66,22 +62,28 @@ function AboutUs() {
         >
           <Fade>
             <Image src={person} alt={"image"} />
+
+            <span
+              style={{
+                marginTop: "0",
+                marginBottom: "0",
+                fontFamily: "poppins",
+              }}
+              className="minorTag"
+            >
+              Shubham Dubey
+            </span>
+            <span
+              className={styles.lightFont + " minorTagunder"}
+              style={{
+                fontFamily: "poppins",
+                marginTop: -20,
+                marginTop: "0",
+              }}
+            >
+              Founder
+            </span>
           </Fade>
-          <h4
-            style={{ marginTop: "0", marginBottom: "0", fontFamily: "poppins" }}
-          >
-            Shubham Dubey
-          </h4>
-          <p
-            className={styles.lightFont}
-            style={{
-              fontFamily: "poppins",
-              marginTop: -20,
-              marginTop: "0",
-            }}
-          >
-            Founder
-          </p>
         </div>
 
         <div className={styles.rightDiv}>
@@ -90,8 +92,6 @@ function AboutUs() {
             style={{
               textAlign: "left",
               marginTop: "1.3vh",
-              height: "40%",
-              width: "35%",
               marginRight: 20,
               float: "left",
             }}
@@ -99,28 +99,26 @@ function AboutUs() {
             <Fade>
               <Image src={person} alt={"image"} />
             </Fade>
-            <h4
+            <span
+              className="minorTag"
               style={{
                 marginTop: "0",
                 marginBottom: "0",
-                fontFamily: "poppins",
               }}
             >
               Shubham Dubey
-            </h4>
-            <p
-              className={styles.lightFont}
+            </span>
+            <span
+              className={styles.lightFont + "  minorTagunder"}
               style={{
-                fontFamily: "poppins",
                 marginTop: -20,
                 marginTop: "0",
-                lineHeight: 1.2,
               }}
             >
               Founder
-            </p>
+            </span>
           </div>
-          <p className={styles.lightFont} style={{ fontFamily: "poppins" }}>
+          <p className={styles.lightFont + " minorPara"}>
             In the eventful month of August 2015, the family of Gayatri
             Institute started our journey to provide affordable education in the
             country. From there on, we have looked back only to reminisce about
@@ -131,74 +129,59 @@ function AboutUs() {
           <br />
 
           <div className={styles.innerFlexDiv}>
-            <div
-              className={styles.rowImg}
-              style={{ fontFamily: "poppins", textAlign: "left" }}
-            >
+            <div className={styles.rowImg} style={{ textAlign: "left" }}>
               <Fade>
-                <Image src={person12} height="280px" width="210px" />
+                <Image
+                  src={person12}
+                  height="280px"
+                  width="220px"
+                  alt={"Mishank Goyal"}
+                />
+
+                <span className="minorTag">Dr. Ashok Arya</span>
+                <span
+                  className={styles.lightFont + "  minorTagunder"}
+                  style={{ marginTop: 6 }}
+                >
+                  Hod science
+                </span>
               </Fade>
-              <h4
-                style={{
-                  fontFamily: "poppins",
-                  marginTop: "0",
-                  marginBottom: "0",
-                }}
-              >
-                Pratik Goyal
-              </h4>
-              <p
-                className={styles.lightFont}
-                style={{ marginTop: -20, marginTop: "0" }}
-              >
-                Position
-              </p>
             </div>
-            <div
-              className={styles.rowImg}
-              style={{ fontFamily: "poppins", textAlign: "left" }}
-            >
+            <div className={styles.rowImg} style={{ textAlign: "left" }}>
               <Fade>
-                <Image src={person13} height="280px" width="210px" />
+                <Image
+                  src={person13}
+                  height="280px"
+                  width="220px"
+                  alt={"Mishank Goyal"}
+                />
+
+                <span className="minorTag">Dr. Ashok Arya</span>
+                <span
+                  className={styles.lightFont + "  minorTagunder"}
+                  style={{ marginTop: 6 }}
+                >
+                  Hod science
+                </span>
               </Fade>
-              <h4
-                style={{
-                  fontFamily: "poppins",
-                  marginTop: "0",
-                  marginBottom: "0",
-                }}
-              >
-                Mishank Goyal
-              </h4>
-              <p
-                className={styles.lightFont}
-                style={{ marginTop: -20, marginTop: "0" }}
-              >
-                Position
-              </p>
             </div>
-            <div
-              className={styles.rowImg}
-              style={{ fontFamily: "poppins", textAlign: "left" }}
-            >
+            <div className={styles.rowImg} style={{ textAlign: "left" }}>
               <Fade>
-                <Image src={person14} height="280px" width="250px" />
+                <Image
+                  src={person14}
+                  height="280px"
+                  width="250px"
+                  alt={"Mishank Goyal"}
+                />
+
+                <span className="minorTag">Dr. Ashok Arya</span>
+                <span
+                  className={styles.lightFont + "  minorTagunder"}
+                  style={{ marginTop: 6 }}
+                >
+                  Hod science
+                </span>
               </Fade>
-              <h4
-                style={{
-                  fontFamily: "poppins",
-                  marginTop: "0",
-                  marginBottom: "0",
-                }}
-              >
-                Dr. Ashok Arya
-              </h4>
-              <p
-                className={styles.lightFont}
-                style={{ marginTop: -20, marginTop: "0" }}
-              >
-                Hod science
-              </p>
             </div>
           </div>
         </div>

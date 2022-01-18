@@ -9,16 +9,16 @@ function TeamComponent() {
         porttitor rhoncus dolor. Ornare lectus sit amet est placerat in egestas.{" "}
       </p> */}
       <div className={styles.flexDiv}>
-        <CardComponent />
-        <CardComponent />
-        <CardComponent />
-        <CardComponent />
+        <CardComponent name={"Pankaj jha"} class={"1"} />
+        <CardComponent name={"Pankaj jha"} class={"1"} />
+        <CardComponent name={"Pankaj jha"} class={"1"} />
+        <CardComponent name={"Pankaj jha"} class={"1"} />
       </div>
       <div className={styles.flexDiv}>
-        <CardComponent />
-        <CardComponent />
-        <CardComponent />
-        <CardComponent />
+        <CardComponent name={"Pankaj jha"} class={"1"} />
+        <CardComponent name={"Pankaj jha"} class={"1"} />
+        <CardComponent name={"Pankaj jha"} class={"1"} />
+        <CardComponent name={"Pankaj jha"} class={"1"} />
       </div>
     </div>
   );
