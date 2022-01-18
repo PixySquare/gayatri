@@ -10,7 +10,7 @@ function Footer() {
   return (
     <div className={styles.container}>
       <div className={styles.socials}>
-        <p styles={{ fontFamily: "poppins" }}> Follow us:</p>
+        <span styles={{ fontFamily: "poppins" }}> Follow us:</span>
         <div className={styles.links}>
           <Link href={"https://www.instagram.com"}>
             <a target="_blank" className={styles.nav_item}>
@@ -46,10 +46,14 @@ function Footer() {
         </div>
       </div>
       <hr style={{ width: "90%", marginLeft: "auto", marginRight: "auto" }} />
+      <br />
       <div className={styles.wrapper}>
-        <p styles={{ fontFamily: "poppins" }}>Gayatri Institute </p>
-        <p styles={{ fontFamily: "poppins" }}>@ Gayatri Institute, 2021</p>
+        <span styles={{ fontFamily: "poppins" }}>Gayatri Institute </span>
+        <span styles={{ fontFamily: "poppins" }}>
+          @ Gayatri Institute, 2021
+        </span>
       </div>
+      <br />
     </div>
   );
 }
