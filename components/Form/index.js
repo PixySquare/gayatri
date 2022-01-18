@@ -45,6 +45,7 @@ function Form() {
           style={{
             textAlign: "center",
             marginLeft: "",
+            marginTop: 10,
             marginBottom: 30,
             fontFamily: "chalkie2",
             color: "#2e92bc",

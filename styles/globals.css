@@ -247,12 +247,15 @@ figure {
 .minorTag2 {
   font-family: "Poppins";
   font-size: 1.2rem !important;
-  line-height: 1;
+  line-height: 1.3;
+  text-align: left;
 }
 .minorTagunder {
   font-family: "Poppins";
   font-size: 1.1rem !important;
-  line-height: 0.2;
+  line-height: 1.3;
+
+  text-align: left;
 }
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
@@ -265,18 +268,20 @@ figure {
   .minorTag {
     font-family: "Poppins";
     font-size: 1rem !important;
-    line-height: 1.2;
+    line-height: 0.9;
   }
 
   .minorTag2 {
     font-family: "Poppins";
     font-size: 0.9rem !important;
     line-height: 1.2;
+    text-align: left !important;
   }
   .minorTagunder {
     font-family: "Poppins";
     font-size: 0.8rem !important;
     line-height: 1.2;
+    text-align: left !important;
   }
 
   .minorPara {
@@ -321,7 +326,7 @@ figure {
   }
 
   .headings {
-    font-size: 2.2rem;
+    font-size: 2.6rem;
   }
 
   .timeline {

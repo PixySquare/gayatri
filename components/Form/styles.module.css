@@ -1,7 +1,7 @@
 .form {
   width: 100%;
   /* margin: 2rem auto; */
-  margin-top: 50px;
+  margin-top: 10px;
   text-align: center;
   background: url(../../public/assets/images/Chalk_Text_Effect.jpg);
   background-repeat: no-repeat;
@@ -9,6 +9,7 @@
   width: 100vw;
   color: #fff;
   padding: 3rem;
+  padding-top: 0rem;
   position: relative;
   overflow: hidden;
 }

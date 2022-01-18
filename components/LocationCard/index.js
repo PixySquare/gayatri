@@ -21,9 +21,9 @@ function LocationCard(props) {
         <Fade>
           <div className="lol_flex">
             <div>
-              <p className="minorTag2"> {props.address} </p>
-              <p className="minorTag2"> {props.address2} </p>
-              <p className="minorTagunder"> Phone : {props.number} </p>
+              <div className="minorTag2"> {props.address2} </div>
+              <div className="minorTag2"> {props.address} </div>
+              <div className="minorTagunder"> Phone : {props.number} </div>
             </div>
             <div className="lol_flex2 onMobile">
               <Link href="/">

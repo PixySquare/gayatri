@@ -4,11 +4,13 @@
   width: 80%;
   margin-left: auto !important;
   margin-right: auto !important;
+  margin-top: -40px;
 }
 
 .lightFont {
   font-weight: 300;
   color: #333;
+  margin-top: 0 !important;
   /* padding-right:20px; */
 }
 
@@ -38,5 +40,10 @@
   .lightFont {
     padding-right: 0 !important;
     margin-top: 0;
+  }
+
+  .wrapper {
+    margin-top: -40px;
+    z-index: 999;
   }
 }

@@ -38,7 +38,7 @@ function Gallery() {
             color: "#aec336",
           }}
         >
-          Our Achievements
+          Gallery
         </h1>
         <div className=" onDesktop">
           <div className={styles.gallery}>
