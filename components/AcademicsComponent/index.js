@@ -1,7 +1,7 @@
 import Image from "next/image";
 import Accordian from "../Accordian";
 import styles from "./styles.module.css";
-import img from "../../public/assets/images/intro2.png";
+import img from "../../public/assets/certificate1.jpeg";
 import { Fade } from "react-awesome-reveal";
 
 function AcademicsComponent() {
@@ -27,8 +27,9 @@ function AcademicsComponent() {
           style={{
             fontFamily: "poppins",
             textAlign: "left",
-            width: "50%",
+            width: "70%",
             marginRight: "10%",
+            marginTop: "3%",
           }}
         >
           {/* <h2 style={{ marginTop: 0 }}>Methodology</h2> */}
@@ -45,6 +46,7 @@ function AcademicsComponent() {
             habit of practising concepts, asking questions and following a
             routine.
           </div>
+          <br />
         </div>
         <Fade>
           <div className={styles.imageDiv}>

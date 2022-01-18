@@ -21,6 +21,7 @@
 
 .imageDiv span {
   border-radius: 20px;
+  width: 50%;
 }
 
 @media (max-width: 1055px) {
