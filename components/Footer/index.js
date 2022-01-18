@@ -12,7 +12,7 @@ function Footer() {
       <div className={styles.socials}>
         <span styles={{ fontFamily: "poppins" }}> Follow us:</span>
         <div className={styles.links}>
-          <Link href={"https://www.instagram.com"}>
+          <Link href={"https://www.instagram.com/gayatri_institute/"}>
             <a target="_blank" className={styles.nav_item}>
               <FontAwesomeIcon
                 icon={faInstagram}
@@ -25,7 +25,7 @@ function Footer() {
               />
             </a>
           </Link>
-          <Link href={"https://www.facebook.com"}>
+          <Link href={"https://www.instagram.com/gayatri_institute/"}>
             <a target="_blank">
               <FontAwesomeIcon
                 icon={faFacebook}
@@ -34,7 +34,7 @@ function Footer() {
               />
             </a>
           </Link>
-          <Link href={"https://www.whatsapp.com"}>
+          <Link href={"https://api.whatsapp.com/send?phone=8368471403"}>
             <a target="_blank" className={styles.nav_item}>
               <FontAwesomeIcon
                 icon={faWhatsapp}
