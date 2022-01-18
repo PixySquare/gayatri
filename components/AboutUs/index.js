@@ -33,6 +33,7 @@ function AboutUs() {
             className={styles.lightFont + " minorPara"}
             style={{
               textAlign: "left",
+              marginBottom: 0,
             }}
           >
             Here at Gayatri Institute, we strive towards providing our students
@@ -52,6 +53,15 @@ function AboutUs() {
       </div>
 
       <br />
+      <br />
+      <br />
+
+      <div
+        className="headings"
+        style={{ margin: 0, fontFamily: "chalkie2", color: "#5279ba" }}
+      >
+        Founder's Note
+      </div>
 
       <div className={styles.secondDiv}>
         <div className={styles.flexContainer2}>
@@ -61,8 +71,8 @@ function AboutUs() {
                 <Image
                   src={person}
                   alt={"image"}
-                  height="380px"
-                  width="300px"
+                  height="320px"
+                  width="280px"
                 />
               </Fade>
             </div>
@@ -77,15 +87,12 @@ function AboutUs() {
             </div>
           </div>
           <div
-            className={" minorPara"}
+            className={styles.lightFont + " minorPara"}
             style={{
               textAlign: "left",
               width: "60%",
             }}
           >
-            <h1 style={{ margin: 0, fontFamily: "chalkie2", color: "#5279ba" }}>
-              Founder's Note
-            </h1>
             Dear Friends, Warm Greetings to you! The term education encompasses
             more than just knowledge and knowing. It is a harmonious blend of
             academia, arts, sports, emotions, attitudes, creativity, nature and
@@ -169,7 +176,7 @@ function AboutUs() {
           </Fade>
         </div>
       </div>
-      <div className={styles.flexContainer2}>
+      <div className={styles.flexContainer3}>
         <div className={styles.innerContainer}>
           <p
             className={" minorPara"}
