@@ -90,6 +90,24 @@ export default function TimeLine() {
                     className=" lolhead"
                     style={{ fontFamily: "poppins", marginBottom: 0 }}
                   >
+                    2018
+                  </h1>
+                  <p style={{ fontFamily: "poppins" }} className=" lolpara">
+                    This year proved to be another great year for our Institute
+                    as we opened up another branch in Vipin Garden, a testament
+                    to our hard work and one step forward in our larger aim for
+                    future.
+                  </p>
+                </div>
+              </div>
+            </Fade>
+            <Fade>
+              <div className="container left">
+                <div className="content">
+                  <h1
+                    className=" lolhead"
+                    style={{ fontFamily: "poppins ", marginBottom: 0 }}
+                  >
                     2019
                   </h1>
                   <p style={{ fontFamily: "poppins" }} className=" lolpara">
@@ -101,11 +119,11 @@ export default function TimeLine() {
               </div>
             </Fade>
             <Fade>
-              <div className="container left">
+              <div className="container right">
                 <div className="content">
                   <h1
                     className=" lolhead"
-                    style={{ fontFamily: "poppins ", marginBottom: 0 }}
+                    style={{ fontFamily: "poppins", marginBottom: 0 }}
                   >
                     2020
                   </h1>
@@ -118,11 +136,11 @@ export default function TimeLine() {
               </div>
             </Fade>
             <Fade>
-              <div className="container right">
+              <div className="container left">
                 <div className="content">
                   <h1
                     className=" lolhead"
-                    style={{ fontFamily: "poppins", marginBottom: 0 }}
+                    style={{ fontFamily: "poppins ", marginBottom: 0 }}
                   >
                     2021
                   </h1>
