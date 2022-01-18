@@ -32,7 +32,7 @@ function AcademicsComponent() {
           }}
         >
           {/* <h2 style={{ marginTop: 0 }}>Methodology</h2> */}
-          <p
+          <div
             className={styles.lightFont + " minorPara"}
             style={{ paddingRight: 30, marginTop: 34 }}
           >
@@ -44,7 +44,7 @@ function AcademicsComponent() {
             classes from classes 1-12, and students are just continually in a
             habit of practising concepts, asking questions and following a
             routine.
-          </p>
+          </div>
         </div>
         <Fade>
           <div className={styles.imageDiv}>

@@ -235,6 +235,7 @@ figure {
 .minorPara {
   font-family: "Poppins";
   font-size: 1.3rem !important;
+  line-height: 2.3rem;
 }
 
 .minorTag {
@@ -281,7 +282,7 @@ figure {
   .minorPara {
     font-family: "Poppins";
     font-size: 0.9rem !important;
-    line-height: 1.2;
+    line-height: 1.2 !important;
   }
 
   .lolpara {
