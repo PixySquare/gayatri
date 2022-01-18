@@ -20,9 +20,9 @@
   right: -5%;
   left: -5%;
   height: 120px;
-  /* background: #fff;
-  -webkit-clip-path: ellipse(50% 60% at 50% 100%);
-  clip-path: ellipse(50% 60% at 50% 100%); */
+  background: rgb(255, 255, 255);
+  -webkit-clip-path: ellipse(50% 60% at 10% 100%);
+  clip-path: ellipse(50% 60% at 50% 100%);
 }
 
 .form input {
@@ -124,10 +124,22 @@
   .form {
     width: 100%;
     padding: 1rem;
-    padding-bottom: 2rem;
+    padding-bottom: 0rem;
   }
   .formElement {
     width: 100% !important;
+  }
+
+  .form:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: -5%;
+    left: -5%;
+    height: 120px;
+    background: #fff;
+    -webkit-clip-path: ellipse(90% 60% at 10% 100%);
+    clip-path: ellipse(90% 60% at 50% 100%);
   }
   .formElement textarea {
     width: 100% !important;

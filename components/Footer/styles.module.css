@@ -17,7 +17,7 @@
   /* margin-top: 50px !important; */
   background-color: #fff;
   color: rgba(116, 113, 113, 1);
-  padding-top: 20px;
+  padding-top: 0;
 }
 
 .socials {
@@ -35,8 +35,9 @@
 }
 
 @media (max-width: 768px) {
-  .wrapper {
+  .container {
     padding-left: 0.9rem;
     padding-right: 0.7rem;
+    padding-top: 0;
   }
 }

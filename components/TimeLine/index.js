@@ -48,7 +48,6 @@ export default function TimeLine() {
     /> */}
           <div className="timeline" data-aos="fade-up">
             <br />
-
             <Fade>
               <div className="container right">
                 <div className="content">
@@ -136,6 +135,11 @@ export default function TimeLine() {
               </div>
             </Fade>
           </div>
+
+          <br />
+          <br />
+          <br />
+          <br />
         </div>
       </div>
     </>

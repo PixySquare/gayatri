@@ -32,7 +32,7 @@ function Form() {
   };
 
   return (
-    <div className={styles.form} id="contact">
+    <div className={styles.form + " lol_curve"} id="contact">
       {/* {loading ? <Loading /> : null} */}
 
       <form
@@ -94,6 +94,8 @@ function Form() {
           </button>
         </Fade>
       </form>
+      <br className="onMobile" />
+      <br />
       <br />
       <br />
       <br />

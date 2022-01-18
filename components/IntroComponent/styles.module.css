@@ -8,23 +8,21 @@
   background-repeat: no-repeat;
   background-position: center;
   color: #fff !important;
-  height: 100vh;
-  /* clip-path: polygon(
-    100% 100%,
-    100% 0%,
-    0% 0%,
-    0% 100%,
-    8% 88%,
-    8% 89%,
-    24% 71%,
-    33% 63%,
-    42% 59%,
-    52% 57%,
-    62% 57%,
-    71% 62%,
-    80% 68%,
-    87% 78%
-  ); */
+  height: 110vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.outerWrapper:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  right: -5%;
+  left: -5%;
+  height: 120px;
+  background: #fff;
+  -webkit-clip-path: ellipse(50% 60% at 50% 100%);
+  clip-path: ellipse(50% 60% at 50% 100%);
 }
 
 .card {
@@ -33,7 +31,7 @@
   height: auto;
   font-size: 1.5rem;
   padding-top: 0.7rem;
-  bottom: 11vh;
+  bottom: 20vh;
   position: relative;
   display: block;
   margin-left: auto;

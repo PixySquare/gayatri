@@ -5,7 +5,6 @@ import person12 from "../../public/assets/images/person.jpeg";
 import person13 from "../../public/assets/images/person2.jpeg";
 import person14 from "../../public/assets/images/person3.jpeg";
 import { Fade } from "react-awesome-reveal";
-
 import person2 from "../../public/assets/images/person2.png";
 import Image from "next/image";
 

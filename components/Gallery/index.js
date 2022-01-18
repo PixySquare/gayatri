@@ -121,6 +121,11 @@ function Gallery() {
         >
           <Link href="/gallery">Explore more -&gt;</Link>
         </div>
+        <br className="onMobile" />
+        <br className="onMobile" />
+        <br className="onMobile" />
+        <br />
+        <br />
       </div>
     </div>
   );
