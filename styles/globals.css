@@ -267,7 +267,7 @@ figure {
 
   .minorTag {
     font-family: "Poppins";
-    font-size: 1rem !important;
+    font-size: 0.7rem !important;
     line-height: 0.9;
   }
 
@@ -279,9 +279,23 @@ figure {
   }
   .minorTagunder {
     font-family: "Poppins";
-    font-size: 0.8rem !important;
+    font-size: 0.6rem !important;
     line-height: 1.2;
     text-align: left !important;
+  }
+
+  .minorTag3 {
+    font-family: "Poppins";
+    font-size: 1.2rem !important;
+    line-height: 1.2;
+    text-align: left !important;
+  }
+  .minorTagunder3 {
+    font-family: "Poppins";
+    font-size: 0.9rem !important;
+    line-height: 1.2;
+    text-align: left !important;
+    margin-bottom: 1rem !important;
   }
 
   .minorPara {

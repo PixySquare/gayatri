@@ -9,7 +9,10 @@ function IntroComponent() {
       <div className={styles.outerWrapper}></div>
       <Fade>
         <div className={styles.card}>
-          <span className={styles.hq} style={{ fontFamily: "poppins" }}>
+          <span
+            className={styles.hq}
+            style={{ fontFamily: "poppins", lineHeight: 0.3 }}
+          >
             We offer tuition for students of classes
           </span>
           <h2

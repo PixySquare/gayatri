@@ -25,7 +25,11 @@ function Footer() {
               />
             </a>
           </Link>
-          <Link href={"https://www.instagram.com/gayatri_institute/"}>
+          <Link
+            href={
+              "https://www.facebook.com/pages/category/Education/Gayatri-Institute-1024965107643250/"
+            }
+          >
             <a target="_blank">
               <FontAwesomeIcon
                 icon={faFacebook}
