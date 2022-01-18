@@ -109,8 +109,6 @@ function AboutUs() {
           </div>
         </div>
       </div>
-      <br />
-      <br />
 
       <p className={styles.lightFont + " minorPara"}>
         In the eventful month of August 2015, the family of Gayatri Institute
@@ -202,9 +200,6 @@ function AboutUs() {
           <Image src={img} alt={"image"} />
         </div>
       </div>
-      <br />
-      <br />
-      <br />
     </div>
   );
 }
