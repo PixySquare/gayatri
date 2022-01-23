@@ -1,11 +1,13 @@
-import styles from "./styles.module.css";
 import img2 from "../../public/assets/images/intro2.png";
 import img from "../../public/assets/path.jpeg";
+import styles from "./styles.module.css";
 
 import person from "../../public/assets/images/owner.jpeg";
 import person12 from "../../public/assets/images/person.jpeg";
 import person13 from "../../public/assets/images/person2.jpeg";
 import person14 from "../../public/assets/images/person3.jpeg";
+import person15 from "../../public/assets/images/person4.jpeg";
+
 import { Fade } from "react-awesome-reveal";
 import person2 from "../../public/assets/images/person2.png";
 import Image from "next/image";
@@ -111,72 +113,6 @@ function AboutUs() {
         </div>
       </div>
 
-      <div className={styles.container23}>
-        <p className={styles.lightFont + " minorPara"}>
-          In the eventful month of August 2015, the family of Gayatri Institute
-          started our journey to provide affordable education in the country.
-          From there on, we have looked back only to reminisce about the
-          beautiful journey we have had. Success speaks for itself as Gayatri
-          Institute in the past few years has gone from a one center with over 5
-          branches opening all over Delhi.
-        </p>
-        <div className={styles.innerFlexDiv}>
-          <div className={styles.rowImg} style={{ textAlign: "left" }}>
-            <Fade>
-              <Image
-                src={person12}
-                height="280px"
-                width="220px"
-                alt={"Mishank Goyal"}
-              />
-
-              <span className="minorTag">Pratik Goyal</span>
-              <span
-                className={styles.lightFont + "  minorTagunder"}
-                style={{ marginTop: 6 }}
-              >
-                Teaching Staff
-              </span>
-            </Fade>
-          </div>
-          <div className={styles.rowImg} style={{ textAlign: "left" }}>
-            <Fade>
-              <Image
-                src={person13}
-                height="280px"
-                width="220px"
-                alt={"Mishank Goyal"}
-              />
-
-              <span className="minorTag">Mishank Goyal</span>
-              <span
-                className={styles.lightFont + "  minorTagunder"}
-                style={{ marginTop: 6 }}
-              >
-                Teaching Staff
-              </span>
-            </Fade>
-          </div>
-          <div className={styles.rowImg} style={{ textAlign: "left" }}>
-            <Fade>
-              <Image
-                src={person14}
-                height="280px"
-                width="250px"
-                alt={"Mishank Goyal"}
-              />
-
-              <span className="minorTag">Dr. Ashok Arya</span>
-              <span
-                className={styles.lightFont + "  minorTagunder"}
-                style={{ marginTop: 6 }}
-              >
-                Teaching Staff
-              </span>
-            </Fade>
-          </div>
-        </div>
-      </div>
       <div className={styles.flexContainer3}>
         <div className={styles.innerContainer}>
           <p
@@ -201,6 +137,104 @@ function AboutUs() {
         </div>
         <div className={styles.imgContainer1}>
           <Image src={img} alt={"image"} />
+        </div>
+      </div>
+
+      <div className={styles.lol}>
+        <div className={styles.ff}>
+          <p className={" minorPara"}>
+            In the eventful month of August 2015, the family of Gayatri
+            Institute started our journey to provide affordable education in the
+            country. From there on, we have looked back only to reminisce about
+            the beautiful journey we have had. Success speaks for itself as
+            Gayatri Institute in the past few years has gone from a one center
+            with over 5 branches opening all over Delhi.
+          </p>
+        </div>
+
+        <div className={styles.container23}>
+          <div className={styles.rowImg} style={{ textAlign: "left" }}>
+            <Fade>
+              <Image
+                src={person12}
+                height="280px"
+                width="220px"
+                alt={"Mishank Goyal"}
+              />
+
+              <span className="minorTag">Pratik Goyal</span>
+              <span
+                className={styles.lightFont + "  minorTagunder"}
+                style={{ marginTop: 6 }}
+              >
+                Center incharge
+                <p className="s" style={{ margin: 0 }}>
+                  {" "}
+                  (Kiran Garden){" "}
+                </p>
+              </span>
+            </Fade>
+          </div>
+          <div className={styles.rowImg} style={{ textAlign: "left" }}>
+            <Fade>
+              <Image
+                src={person15}
+                height="280px"
+                width="220px"
+                alt={"Mishank Goyal"}
+              />
+
+              <span className="minorTag">Renu kala</span>
+              <span
+                className={styles.lightFont + "  minorTagunder"}
+                style={{ marginTop: 6 }}
+              >
+                HOD front office
+              </span>
+            </Fade>
+          </div>
+
+          <div className={styles.rowImg} style={{ textAlign: "left" }}>
+            <Fade>
+              <Image
+                src={person13}
+                height="280px"
+                width="220px"
+                alt={"Mishank Goyal"}
+              />
+
+              <span className="minorTag">Mishank Goyal</span>
+              <span
+                className={styles.lightFont + "  minorTagunder"}
+                style={{ marginTop: 6 }}
+              >
+                Center incharge
+                <p className="s" style={{ margin: 0 }}>
+                  {" "}
+                  (Jain Colony){" "}
+                </p>
+              </span>
+            </Fade>
+          </div>
+
+          <div className={styles.rowImg} style={{ textAlign: "left" }}>
+            <Fade>
+              <Image
+                src={person14}
+                height="280px"
+                width="220px"
+                alt={"Mishank Goyal"}
+              />
+
+              <span className="minorTag">Dr. Ashok Arya</span>
+              <span
+                className={styles.lightFont + "  minorTagunder"}
+                style={{ marginTop: 6 }}
+              >
+                HOD Science
+              </span>
+            </Fade>
+          </div>
         </div>
       </div>
     </div>

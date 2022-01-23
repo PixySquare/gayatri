@@ -10,7 +10,7 @@ import g1 from "../../public/assets/gallery/7.png";
 import g2 from "../../public/assets/gallery/21.png";
 import g3 from "../../public/assets/gallery/22.png";
 import g4 from "../../public/assets/gallery/5.png";
-import g5 from "../../public/assets/gallery/17.png";
+import g5 from "../../public/assets/gallery/18.png";
 import g6 from "../../public/assets/gallery/3.png";
 
 function Gallery() {

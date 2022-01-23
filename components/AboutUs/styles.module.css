@@ -50,11 +50,20 @@
   /* padding: 30px; */
 }
 
+.ff {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .rightDiv {
   padding-top: 0px;
   padding-left: 30px;
   width: 40%;
   height: 100%;
+}
+.lol {
+  margin-bottom: 3rem;
 }
 
 .rightDiv p {
@@ -63,17 +72,20 @@
 .lightFont {
   font-weight: 300;
   color: #333;
-  width: 80%;
-  margin-left: auto;
+  width: 90%;
 
   /* padding-right:20px; */
+}
+
+.rowImg {
+  margin: 3px;
 }
 
 .imgContainer {
   width: 30%;
 }
 .imgContainer1 {
-  width: 40%;
+  width: 50%;
   margin-top: auto;
   margin-bottom: auto;
 }
@@ -87,7 +99,12 @@
 }
 
 .container23 {
+  width: 100%;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
 }
 
 @media (max-width: 1055px) {
@@ -114,7 +131,11 @@
   }
 
   .container23 {
-    flex-direction: column-reverse;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    margin-top: 2rem;
   }
 
   .innerContainer {
@@ -163,9 +184,15 @@
     padding-left: 0px !important;
   }
   .rowImg {
-    margin: 4px;
+    margin: 2px;
   }
   .mainImg {
     display: block !important;
+  }
+
+  .lol {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 0rem;
   }
 }

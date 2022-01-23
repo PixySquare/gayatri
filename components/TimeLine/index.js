@@ -113,7 +113,7 @@ export default function TimeLine() {
                   <p style={{ fontFamily: "poppins" }} className=" lolpara">
                     We partner up with another like-minded individual, as
                     Gayatri Institute tests new but faithful waters in opening
-                    up a franchise in Kiran Garden, with Mr. Prateek Goyal.
+                    up a franchise in Kiran Garden, with Mr. Pratik Goyal.
                   </p>
                 </div>
               </div>
