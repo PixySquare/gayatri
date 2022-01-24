@@ -55,33 +55,37 @@ export default function Home() {
           href={
             "https://www.facebook.com/pages/category/Education/Gayatri-Institute-1024965107643250/"
           }
+          target="_blank"
+          passHref
         >
-          <a target="_blank">
-            <FontAwesomeIcon
-              icon={faFacebook}
-              size="2x"
-              style={{ color: "#006AFF" }}
-            />
-          </a>
+          <FontAwesomeIcon
+            icon={faFacebook}
+            size="2x"
+            style={{ color: "#006AFF" }}
+          />
         </Link>
 
-        <Link href={"https://www.instagram.com/gayatri_institute/"}>
-          <a target="_blank">
-            <FontAwesomeIcon
-              icon={faInstagram}
-              size="2x"
-              style={{ color: "rgb(189, 105, 189)" }}
-            />
-          </a>
+        <Link
+          href={"https://www.instagram.com/gayatri_institute/"}
+          target="_blank"
+          passHref
+        >
+          <FontAwesomeIcon
+            icon={faInstagram}
+            size="2x"
+            style={{ color: "rgb(189, 105, 189)" }}
+          />
         </Link>
-        <Link href={"https://api.whatsapp.com/send?phone=8368471403"}>
-          <a target="_blank" className={styles.nav_item}>
-            <FontAwesomeIcon
-              icon={faWhatsapp}
-              size="2x"
-              style={{ color: "#25D366" }}
-            />
-          </a>
+        <Link
+          href={"https://api.whatsapp.com/send?phone=8368471403"}
+          target="_blank"
+          passHref
+        >
+          <FontAwesomeIcon
+            icon={faWhatsapp}
+            size="2x"
+            style={{ color: "#25D366" }}
+          />
         </Link>
       </div>
       <IntroComponent />
