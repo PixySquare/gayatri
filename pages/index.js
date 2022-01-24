@@ -10,7 +10,7 @@ import {
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
-import CarouselCover from "../components/CarouselCover";
+// import CarouselCover from "../components/CarouselCover";
 import AboutUs from "../components/AboutUs";
 import AcademicsComponent from "../components/AcademicsComponent";
 import ContactUs from "../components/ContactUs";
