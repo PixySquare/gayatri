@@ -7,30 +7,22 @@ function IntroComponent() {
   return (
     <div className={styles.wrapper} id="home">
       <div className={styles.outerWrapper}></div>
-      <Fade>
-        <div className={styles.card}>
-          <span
-            className={styles.hq}
-            style={{ fontFamily: "poppins", lineHeight: 0.3 }}
-          >
-            We offer tuition for students of classes
-          </span>
-          <h2
-            className={styles.pq}
-            style={{ fontFamily: "poppins", margin: 0 }}
-          >
-            {" "}
-            1st to 12th class
-          </h2>
-          <h2
-            className={styles.pq}
-            style={{ fontFamily: "poppins", margin: 0 }}
-          >
-            {" "}
-            All subjects
-          </h2>
-        </div>
-      </Fade>
+      <div className={styles.card}>
+        <span
+          className={styles.hq}
+          style={{ fontFamily: "poppins", lineHeight: 0.3 }}
+        >
+          We offer tuition for students of classes
+        </span>
+        <h2 className={styles.pq} style={{ fontFamily: "poppins", margin: 0 }}>
+          {" "}
+          1st to 12th class
+        </h2>
+        <h2 className={styles.pq} style={{ fontFamily: "poppins", margin: 0 }}>
+          {" "}
+          All subjects
+        </h2>
+      </div>
     </div>
   );
 }
