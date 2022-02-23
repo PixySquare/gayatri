@@ -11,7 +11,6 @@ import person15 from "../../public/assets/images/person4.jpeg";
 import { Fade } from "react-awesome-reveal";
 import person2 from "../../public/assets/images/person2.png";
 import Image from "next/image";
-
 function AboutUs() {
   return (
     <div className={styles.wrapper} id="aboutus">

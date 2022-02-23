@@ -32,8 +32,9 @@ import g23 from "../public/assets/gallery/23.png";
 import g24 from "../public/assets/gallery/24.png";
 import g25 from "../public/assets/gallery/25.png";
 import g26 from "../public/assets/gallery/26.png";
-
+import Head from "next/head"
 function Menu() {
+  
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
   });
@@ -53,6 +54,18 @@ function Menu() {
   };
   return (
     <div>
+    <Head>
+  <title>Gallery</title>
+  <meta name="description" content="Here at Gayatri Institute, we strive towards providing our students with the best teaching services, an enthusiastic and well qualified
+faculty along with affordable fees. Our focus upon building Strong
+conceptual understanding of topics among students helps us achieve
+our desired results; not only excellent marksheets, but smart
+individuals with an aptitude and appetite for grasping a wide range
+of concepts. While our Primary focus is on fundamental classes i.e
+I-VIII, we also have well structured tutoring services for higher
+classes i.e. IX-XII" />
+
+</Head>
       <Header />
       <div className={styles.cover}>
         <div className={styles.heading}>Our Achievements and Success</div>

@@ -5,7 +5,7 @@ import img from "../../public/assets/certificate2.jpeg";
 import { Fade } from "react-awesome-reveal";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-
+import Head from "next/head"
 function AcademicsComponent() {
   const responsive = {
     superLargeDesktop: {
@@ -27,7 +27,9 @@ function AcademicsComponent() {
     },
   };
   return (
+    
     <div className={styles.wrapper} id="academics">
+   
       <h1
         className="headings"
         style={{

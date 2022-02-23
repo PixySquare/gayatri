@@ -27,7 +27,9 @@ import Form from "../components/Form";
 import TimeLine from "../components/TimeLine";
 import { Window } from "@mui/icons-material";
 import Link from "next/link";
+
 export default function Home() {
+  
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
   });
@@ -48,6 +50,19 @@ export default function Home() {
 
   return (
     <div>
+    <Head>
+  <title>Gaytri Institute</title>
+  
+  <meta name="description" content="Here at Gayatri Institute, we strive towards providing our students with the best teaching services, an enthusiastic and well qualified
+faculty along with affordable fees. Our focus upon building Strong
+conceptual understanding of topics among students helps us achieve
+our desired results; not only excellent marksheets, but smart
+individuals with an aptitude and appetite for grasping a wide range
+of concepts. While our Primary focus is on fundamental classes i.e
+I-VIII, we also have well structured tutoring services for higher
+classes i.e. IX-XII." />
+
+</Head>
       <Header />
       {/* <CarouselCover /> */}
       <div className={styles.iconsColumn}>
