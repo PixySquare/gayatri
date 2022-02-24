@@ -4,7 +4,7 @@ import img from "../../public/assets/images/default.png";
 function CardComponent() {
   return (
     <div className={styles.wrapper}>
-      <Image src={img} alt={"image"} />
+      <Image src={img} alt={"Students Community"} />
       <div className={styles.info}>
         <p>Name Surname</p>
         <p>Class 1</p>

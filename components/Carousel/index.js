@@ -31,7 +31,7 @@ function index(props) {
             style={{ width: "20%" }}
             height={height}
             width={width}
-            alt="legend 1"
+            alt="Certificate Revision Marks"
           />
         </div>
         <div>
@@ -40,7 +40,7 @@ function index(props) {
             style={{ width: "20%" }}
             height={height}
             width={width}
-            alt="legend 2"
+            alt="Physics Chemistry Maths"
           />
         </div>
         <div>
@@ -49,7 +49,7 @@ function index(props) {
             style={{ width: "20%" }}
             height={height}
             width={width}
-            alt="legend 2"
+            alt="Best Teaching Services"
           />
         </div>
       </Carousel>

@@ -79,7 +79,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Gayatri offers discipline"
               }
               src={g1}
               style={{ width: "100%" }}
@@ -88,7 +88,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Personalised & Specialized teachers"
               }
               src={g2}
               style={{ width: "100%" }}
@@ -97,7 +97,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Experienced Teachers"
               }
               src={g3}
               style={{ width: "100%" }}
@@ -106,7 +106,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Educational Skills"
               }
               src={g4}
               style={{ width: "100%" }}
@@ -115,7 +115,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Gayatri offers values morals discipline to students"
               }
               src={g5}
               style={{ width: "100%" }}
@@ -124,7 +124,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Gayatri provides School"
               }
               src={g6}
               style={{ width: "100%" }}
@@ -133,7 +133,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "DPP sheets Assignments "
               }
               src={g7}
               style={{ width: "100%" }}
@@ -142,7 +142,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Blackboard Whiteboard SmartClass Chalk"
               }
               src={g8}
               style={{ width: "100%" }}
@@ -153,7 +153,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Notebook Register Students"
               }
               src={g9}
               style={{ width: "100%" }}
@@ -163,7 +163,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Google Meet Zoom Video Classes"
               }
               src={g11}
               style={{ width: "100%" }}
@@ -172,7 +172,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "All India Rank IIT NIT AIIMS"
               }
               src={g12}
               style={{ width: "100%" }}
@@ -181,7 +181,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Best Colleges"
               }
               src={g13}
               style={{ width: "100%" }}
@@ -190,7 +190,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Educational Environment Classes"
               }
               src={g14}
               style={{ width: "100%" }}
@@ -199,7 +199,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Prestigious Education in India"
               }
               src={g15}
               style={{ width: "100%" }}
@@ -210,7 +210,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Good Administrator Coordinator"
               }
               src={g16}
               style={{ width: "100%" }}
@@ -219,7 +219,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Best Educational Platform"
               }
               src={g17}
               style={{ width: "100%" }}
@@ -228,7 +228,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Online Coaching"
               }
               src={g18}
               style={{ width: "100%" }}
@@ -237,7 +237,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Physics Chemistry Maths History Geography"
               }
               src={g19}
               style={{ width: "100%" }}
@@ -246,7 +246,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "English MCQ Subjective"
               }
               src={g20}
               style={{ width: "100%" }}
@@ -255,7 +255,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Topper Notes Guidance"
               }
               src={g10}
               style={{ width: "100%" }}
@@ -266,7 +266,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Patshala Booklet"
               }
               src={g21}
               style={{ width: "100%" }}
@@ -275,7 +275,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Question and Answers"
               }
               src={g22}
               style={{ width: "100%" }}
@@ -284,7 +284,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Tutorials Assignments Labs Plagiarism"
               }
               src={g23}
               style={{ width: "100%" }}
@@ -293,7 +293,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Academics General Knowledge"
               }
               src={g24}
               style={{ width: "100%" }}
@@ -302,7 +302,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Past Year Questions"
               }
               src={g25}
               style={{ width: "100%" }}
@@ -311,7 +311,7 @@ classes i.e. IX-XII" />
           <Fade>
             <Image
               alt={
-                "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                "Time Management Stationary"
               }
               src={g26}
               style={{ width: "100%" }}

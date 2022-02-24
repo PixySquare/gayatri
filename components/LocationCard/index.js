@@ -30,7 +30,7 @@ function LocationCard(props) {
                 <a>
                   <Image
                     src={srcc}
-                    alt="Picture of the author"
+                    alt="1st to 12th Class All Subjects"
                     height="50"
                     width="50"
                   />

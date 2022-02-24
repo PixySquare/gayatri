@@ -71,7 +71,7 @@ function AboutUs() {
               <Fade>
                 <Image
                   src={person}
-                  alt={"image"}
+                  alt={"image Gayatri Institute Dwarka Delhi FIITJEE VMC"}
                   height="420px"
                   width="330px"
                 />
@@ -135,7 +135,7 @@ function AboutUs() {
           </p>
         </div>
         <div className={styles.imgContainer1}>
-          <Image src={img} alt={"image"} />
+          <Image src={img} alt={"Coaching Institute Academics All Subjects"} />
         </div>
       </div>
 
@@ -158,7 +158,7 @@ function AboutUs() {
                 src={person12}
                 height="280px"
                 width="220px"
-                alt={"Mishank Goyal"}
+                alt={"PATHSHALA SCHOOL CLASSES"}
               />
 
               <span className="minorTag">Pratik Goyal</span>
@@ -180,7 +180,7 @@ function AboutUs() {
                 src={person15}
                 height="280px"
                 width="220px"
-                alt={"Mishank Goyal"}
+                alt={"ONLINE CLASSES EDUCATION"}
               />
 
               <span className="minorTag">Renu kala</span>
@@ -199,7 +199,7 @@ function AboutUs() {
                 src={person13}
                 height="280px"
                 width="220px"
-                alt={"Mishank Goyal"}
+                alt={"Children Classes Students"}
               />
 
               <span className="minorTag">Mishank Goyal</span>
@@ -222,7 +222,7 @@ function AboutUs() {
                 src={person14}
                 height="280px"
                 width="220px"
-                alt={"Mishank Goyal"}
+                alt={"Location Dwarka institute"}
               />
 
               <span className="minorTag">Dr. Ashok Arya</span>

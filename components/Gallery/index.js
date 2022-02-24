@@ -55,7 +55,7 @@ function Gallery() {
               <figure className="gallery__item gallery__item--1">
                 <Image
                   alt={
-                    "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                    "Gaytri Institute Offers best Teaching services in New Delhi , India"
                   }
                   src={g1}
                   style={{ width: "100%" }}
@@ -64,7 +64,7 @@ function Gallery() {
               <figure className="gallery__item gallery__item--2">
                 <Image
                   alt={
-                    "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                    "Classes Available"
                   }
                   src={g2}
                   style={{ width: "100%" }}
@@ -73,7 +73,7 @@ function Gallery() {
               <figure className="gallery__item gallery__item--3">
                 <Image
                   alt={
-                    "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                    "Gayatri Provides great learning experience for school and college students"
                   }
                   src={g3}
                   style={{ width: "100%" }}
@@ -82,7 +82,7 @@ function Gallery() {
               <figure className="gallery__item gallery__item--4">
                 <Image
                   alt={
-                    "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                    "Gayatri helps students change the world "
                   }
                   src={g4}
                   style={{ width: "100%" }}
@@ -91,7 +91,7 @@ function Gallery() {
               <figure className="gallery__item gallery__item--5">
                 <Image
                   alt={
-                    "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                    "Gayatri Institute offers personalised doubt session"
                   }
                   src={g5}
                   style={{ width: "100%" }}
@@ -100,7 +100,7 @@ function Gallery() {
               <figure className="gallery__item gallery__item--6">
                 <Image
                   alt={
-                    "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                    "The best teachers are those whoe show you where to look but don't tell you what to see"
                   }
                   src={g6}
                   style={{ width: "100%" }}
@@ -128,7 +128,7 @@ function Gallery() {
             <div styles={{ margin: 3 }}>
               <Image
                 alt={
-                  "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                  "Serious Coaching Institute"
                 }
                 src={g3}
                 style={{ width: "100%" }}
@@ -137,7 +137,7 @@ function Gallery() {
             <div styles={{ margin: 3 }}>
               <Image
                 alt={
-                  "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                  "FIITJEE VidyaMandir Classes"
                 }
                 src={g2}
                 style={{ width: "100%" }}
@@ -146,7 +146,7 @@ function Gallery() {
             <div styles={{ margin: 3 }}>
               <Image
                 alt={
-                  "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                  "JEE Coaching NEET Session"
                 }
                 src={g1}
                 style={{ width: "100%" }}
@@ -155,7 +155,7 @@ function Gallery() {
             <div styles={{ margin: 3 }}>
               <Image
                 alt={
-                  "Gayatri eats food roziroti dwarka photo check out restaraunt now  www.gayatrieats.com "
+                  "Motivational Student Stories from all over the India"
                 }
                 src={g4}
                 style={{ width: "100%" }}
